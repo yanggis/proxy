@@ -1,0 +1,11 @@
+function FindProxyForURL(url, host)
+{
+// variable strings to return
+var proxy_yes = "PROXY 192.168.1.1:8080";
+var proxy_no = "DIRECT";
+if (shExpMatch(url, "http://www.mycompanywebsite.com*")) { return proxy_no; }
+if (shExpMatch(url, "http://www.myotherwebsite.com*")) { return proxy_no; }
+if (shExpMatch(url, "http://www.my3rdlocalsite.com*")) { return proxy_no; }
+// Proxy anything else
+return proxy_yes;
+}
