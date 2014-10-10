@@ -130,4 +130,4 @@ var _http_map={
     
   }
   
-},_proxy_str="PROXY 192.168.1.112:8088";
+},_proxy_str="PROXY 192.168.1.112:808";
