@@ -1,0 +1,105 @@
+Not listening on fe80::983b:16ff:fe80:a5a2%p2p0:8020
+Not listening on fe80::983b:16ff:fe80:a5a2%p2p0:8019
+Not listening on fe80::983b:16ff:fe80:25a2%p2p-p2p0-0:8020
+Not listening on fe80::983b:16ff:fe80:25a2%p2p-p2p0-0:8019
+Not listening on 192.168.43.1:8020
+Not listening on 192.168.43.1:8019
+Not listening on 192.168.1.101:8020
+Not listening on 192.168.1.101:8019
+Not listening on 127.0.0.1:8020
+Not listening on 127.0.0.1:8019
+Clear vpn service from onDestroy()
+Stopping vpn service from VPN_STOP_CMD
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+Connect direct to 173.194.117.58:443
+Opening a new connection
+Acting as forwarder on 173.194.117.58:443
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+Connect direct to 173.194.117.58:443
+Opening a new connection
+Acting as forwarder on 173.194.117.58:443
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+Connect direct to 119.167.145.54:8080
+Opening a new connection
+Acting as forwarder on 119.167.145.54:8080
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+ConnectionHandler got an error : java.lang.NullPointerException
+Connect direct to play.googleapis.com:443
+Opening a new connection
+Acting as forwarder on play.googleapis.com:443
+ConnectionHandler got an error : java.lang.NullPointerException
+Connect direct to 173.194.117.58:443
+Opening a new connection
+Acting as forwarder on 173.194.117.58:443
+Connect direct to 173.194.117.58:443
+Opening a new connection
+Acting as forwarder on 173.194.117.58:443
+Connect direct to ssl.google-analytics.com:443
+Opening a new connection
+Acting as forwarder on ssl.google-analytics.com:443
+ConnectionHandler got an error : java.lang.NullPointerException
+interfaceAddress: /192.168.1.101/24 [/192.168.1.255]
+interfaceAddress: /fe80::9a3b:16ff:fe80:a5a2%wlan0%8/64 [null]
+interfaceAddress: /fe80::983b:16ff:fe80:a5a2%p2p0%7/64 [null]
+interfaceAddress: /127.0.0.1/8 [null]
+interfaceAddress: /::1%1%1/128 [null]
+interfaceAddress: /192.168.43.1/24 [/192.168.43.255]
+interfaceAddress: /fe80::983b:16ff:fe80:25a2%p2p-p2p0-0%9/64 [null]
+addRoute : 10.0.0.0/8
+addAddress : 10.0.0.1/8
+Setting vpn service from VPN_START_CMD
+Unable to start listener fe80::9a3b:16ff:fe80:a5a2%wlan0:8020
+Unable to start listener fe80::9a3b:16ff:fe80:a5a2%wlan0:8019
+Proxy listening on fe80::983b:16ff:fe80:a5a2%p2p0:8020
+Proxy listening on fe80::983b:16ff:fe80:a5a2%p2p0:8019
+Proxy listening on fe80::983b:16ff:fe80:25a2%p2p-p2p0-0:8020
+Proxy listening on 192.168.43.1:8019
+Proxy listening on fe80::983b:16ff:fe80:25a2%p2p-p2p0-0:8019
+Proxy listening on 192.168.43.1:8020
+Proxy listening on 192.168.1.101:8020
+Proxy listening on 192.168.1.101:8019
+Proxy listening on 127.0.0.1:8020
+Proxy listening on 127.0.0.1:8019
+!!!active network is not set on os below lollipop
