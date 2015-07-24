@@ -113,6 +113,7 @@ if (shExpMatch(url,"*123.126.99.57*")) { return proxy_yes; }
 if (shExpMatch(url,"*123.126.99.39*")) { return proxy_yes; }
 if (shExpMatch(url,"*220.181.154.137*")) { return proxy_yes; }
 if (shExpMatch(url,"*httpbin.org*")) { return proxy_yes; }
+if (shExpMatch(url,"*ip138.com*")) { return proxy_yes; }
 // Proxy anything else
 return proxy_no;
 }
