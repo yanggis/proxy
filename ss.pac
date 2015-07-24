@@ -12,6 +12,7 @@ if (shExpMatch(url,"*182.140.226.78*")) { return proxy_no; }
 if (shExpMatch(url,"*61.147.204.232*")) { return proxy_no; }
 if (shExpMatch(url,"*61.160.199.76*")) { return proxy_no; }
 if (shExpMatch(url,"*119.147.157.39*")) { return proxy_no; }
+if (shExpMatch(url,"*119.147.157.21*")) { return proxy_no; }
 if (shExpMatch(url,"*119.84.43.19*")) { return proxy_no; }
 // Proxy anything else
 return proxy_yes;
