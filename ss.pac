@@ -6,10 +6,10 @@ var ip = dnsResolve(host);
 //alert(ip);
 //var ipstr = ip+"/"+"youku"+"/";
 //alert(ipstr);
-subs = url.substring(7, 7 + ipstr.length);
+subs = url.substring(7, 7 + ip.length);
 //alert(subs);
 
-if (url.substring(7, 7 + ipstr.length) == ip) {  return proxy_no;  }  
+if (url.substring(7, 7 + ip.length) == ip) {  return proxy_no;  }  
 // no proxy
 if (shExpMatch(url,"*ip138.com*")) { return proxy_no; }
 if (shExpMatch(url,"*google*")) { return proxy_no; }
