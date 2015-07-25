@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host)
 {
-var proxy_yes = "PROXY proxy.uku.im:8888; yanggis.f3322.org:3128";
+var proxy_yes = "PROXY yanggis.f3322.org:3128";
 var proxy_no = "DIRECT";
 if (shExpMatch(url,"*v.youku.com*")) { return proxy_yes; }
 if (shExpMatch(url,"*api.youku.com*")) { return proxy_yes; }
