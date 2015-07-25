@@ -28,7 +28,9 @@ if (shExpMatch(url,"*182.140.226.173*")) { return proxy_no; }
 if (shExpMatch(url,"*182.140.226.78*")) { return proxy_no; }
 if (shExpMatch(url,"*61.147.204.232*")) { return proxy_no; }
 if (shExpMatch(url,"*61.147.204.176*")) { return proxy_no; }
+if (shExpMatch(url,"*61.160.198.240*")) { return proxy_no; }
 if (shExpMatch(url,"*61.160.199.76*")) { return proxy_no; }
+if (shExpMatch(url,"*61.183.116.141*")) { return proxy_no; }
 if (shExpMatch(url,"*119.147.157.39*")) { return proxy_no; }
 if (shExpMatch(url,"*119.147.157.21*")) { return proxy_no; }
 if (shExpMatch(url,"*119.97.154.176*")) { return proxy_no; }
@@ -39,6 +41,7 @@ if (shExpMatch(url,"*119.84.113.46*")) { return proxy_no; }
 if (shExpMatch(url,"*118.180.19.110*")) { return proxy_no; }
 if (shExpMatch(url,"*124.232.159.81*")) { return proxy_no; }
 if (shExpMatch(url,"*222.216.189.233*")) { return proxy_no; }
+if (shExpMatch(url,"*222.216.189.175*")) { return proxy_no; }
 if (shExpMatch(url,"*116.10.191.25*")) { return proxy_no; }
 if (shExpMatch(url,"*116.211.116.113*")) { return proxy_no; }
 //sohu
