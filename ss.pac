@@ -18,6 +18,7 @@ var ip = dnsResolve(host);
 //if (shExpMatch(url,"*220.181.154.137*")) { return proxy_yes; }
 if (shExpMatch(url,"*ip138.com*")) { return proxy_yes; }
 if (shExpMatch(url,"*xl.api.3g.youku.com*")) { return proxy_no; }
+if (shExpMatch(url,"*weather.com.cn*")) { return proxy_no; }
 // no proxy
 if (url.substring(7, 7 + ip.length) == ip) {  return "192.168.1.104:3128";}  
 if (shExpMatch(url,"*google*")) { return proxy_no; }
