@@ -123,6 +123,11 @@ for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
  }
-if (shExpMatch(url, "*youku.com*") &&(!shExpMatch(url, "*static.youku.com*"))) {return "PROXY "+proxyserver;}
+if (shExpMatch(url, "*youku.com*") 
+   && (!shExpMatch(url, "*static.youku.com*"))
+   && (!shExpMatch(url, "*static.atm.youku.com*"))
+   && (!shExpMatch(url, "*p.l.youku.com*"))
+   && (!shExpMatch(url, "*v.l.youku.com*"))
+   ) {return "PROXY "+proxyserver;}
  return "DIRECT";
 }
