@@ -128,6 +128,7 @@ if (shExpMatch(url, "*youku.com*")
    && (!shExpMatch(url, "*static.atm.youku.com*"))
    && (!shExpMatch(url, "*p.l.youku.com*"))
    && (!shExpMatch(url, "*v.l.youku.com*"))
+   && (!shExpMatch(url, "*html.atm.youku.com*"))
    ) {return "PROXY "+proxyserver;}
  return "DIRECT";
 }
