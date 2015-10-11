@@ -6,6 +6,7 @@ function FindProxyForURL(url, host) {
     //
     var proxylist = new Array(
     //"p.l.youku.com",
+    "index.youku.com",
     "ykrec.youku.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
