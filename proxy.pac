@@ -1,115 +1,124 @@
-function FindProxyForURL(url, host)
- {
- if (shExpMatch(host, "(*.vv.play.aiseet.atianqi.com | vv.play.aiseet.atianqi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.dpool.sina.com.cn | dpool.sina.com.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.module.youku.com | module.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.pl.youku.com | pl.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.v.pptv.com | v.pptv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.hot2.vrs.sohu.com | hot2.vrs.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.api.launch.hd.sohu.com | api.launch.hd.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.api.hubo.ott.sohu.com | api.hubo.ott.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.v2.tudou.com | v2.tudou.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.gslb.letvapp.net | gslb.letvapp.net)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.v.youku.com | v.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.api.youku.com | api.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.play.youku.com | play.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.s.plcloud.music.qq.com | s.plcloud.music.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.i.y.qq.com | i.y.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.hot.vrs.sohu.com | hot.vrs.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.live.tv.sohu.com | live.tv.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.pad.tv.sohu.com | pad.tv.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.my.tv.sohu.com | my.tv.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.hot.vrs.letv.com | hot.vrs.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.data.video.qiyi.com | data.video.qiyi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.cache.video.qiyi.com | cache.video.qiyi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.cache.vip.qiyi.com | cache.vip.qiyi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.v.api.hunantv.com | v.api.hunantv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.vv.video.qq.com | vv.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.tt.video.qq.com | tt.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.ice.video.qq.com | ice.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.tjsa.video.qq.com | tjsa.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.a10.video.qq.com | a10.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.xyy.video.qq.com | xyy.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.vcq.video.qq.com | vcq.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.vsh.video.qq.com | vsh.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.vbj.video.qq.com | vbj.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.bobo.video.qq.com | bobo.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.flvs.video.qq.com | flvs.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.bkvv.video.qq.com | bkvv.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.qzs.qq.com | qzs.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.info.zb.qq.com | info.zb.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.geo.js.kankan.xunlei.com | geo.js.kankan.xunlei.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.web-play.pptv.com | web-play.pptv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.web-play.pplive.cn | web-play.pplive.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.dyn.ugc.pps.tv | dyn.ugc.pps.tv)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.v.pps.tv | v.pps.tv)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.inner.kandian.com | inner.kandian.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.ipservice.163.com | ipservice.163.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.so.open.163.com | so.open.163.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.zb.s.qq.com | zb.s.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.ip.kankan.xunlei.com | ip.kankan.xunlei.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.vxml.56.com | vxml.56.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.music.sina.com.cn | music.sina.com.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.play.baidu.com | play.baidu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.v.iask.com | v.iask.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.tv.weibo.com | tv.weibo.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.wtv.v.iask.com | wtv.v.iask.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.video.sina.com.cn | video.sina.com.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.www.yinyuetai.com | www.yinyuetai.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.api.letv.com | api.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.st.live.letv.com | st.live.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.live.gslb.letv.com | live.gslb.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.static.itv.letv.com | static.itv.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.ip.apps.cntv.cn | ip.apps.cntv.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.vdn.apps.cntv.cn | vdn.apps.cntv.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.vdn.live.cntv.cn | vdn.live.cntv.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.vip.sports.cntv.cn | vip.sports.cntv.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.211.151.157.15 | 211.151.157.15)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.a.play.api.3g.youku.com | a.play.api.3g.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.i.play.api.3g.youku.com | i.play.api.3g.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.api.3g.youku.com | api.3g.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.tv.api.3g.youku.com | tv.api.3g.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.play.api.3g.youku.com | play.api.3g.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.play.api.3g.tudou.com | play.api.3g.tudou.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.tv.api.3g.tudou.com | tv.api.3g.tudou.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.api.3g.tudou.com | api.3g.tudou.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.api.tv.sohu.com | api.tv.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.access.tv.sohu.com | access.tv.sohu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.iface.iqiyi.com | iface.iqiyi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.iface2.iqiyi.com | iface2.iqiyi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.cache.m.iqiyi.com | cache.m.iqiyi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.dynamic.app.m.letv.com | dynamic.app.m.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.dynamic.meizi.app.m.letv.com | dynamic.meizi.app.m.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.dynamic.search.app.m.letv.com | dynamic.search.app.m.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.dynamic.live.app.m.letv.com | dynamic.live.app.m.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.listso.m.areainfo.ppstream.com | listso.m.areainfo.ppstream.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.epg.api.pptv.com | epg.api.pptv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.play.api.pptv.com | play.api.pptv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.m.letv.com | m.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.api.mob.app.letv.com | api.mob.app.letv.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.interface.bilibili.com | interface.bilibili.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.3g.music.qq.com | 3g.music.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.mqqplayer.3g.qq.com | mqqplayer.3g.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.proxy.music.qq.com | proxy.music.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.proxymc.qq.com | proxymc.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.ip2.kugou.com | ip2.kugou.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.ip.kugou.com | ip.kugou.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.client.api.ttpod.com | client.api.ttpod.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.mobi.kuwo.cn | mobi.kuwo.cn)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.mobilefeedback.kugou.com | mobilefeedback.kugou.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.tingapi.ting.baidu.com | tingapi.ting.baidu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.music.baidu.com | music.baidu.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.serviceinfo.sdk.duomi.com | serviceinfo.sdk.duomi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.music.163.com | music.163.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.www.xiami.com | www.xiami.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.spark.api.xiami.com | spark.api.xiami.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.iplocation.geo.qiyi.com | iplocation.geo.qiyi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.sns.video.qq.com | sns.video.qq.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.v5.pc.duomi.com | v5.pc.duomi.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.tms.is.ysten.com | tms.is.ysten.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.internal.check.duokanbox.com | internal.check.duokanbox.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.openapi.youku.com | openapi.youku.com)")) return "yanggis.f3322.org:3128" ;
- else if (shExpMatch(host, "(*.ip138.com | ip138.com)")) return "yanggis.f3322.org:3128" ;
- else return "DIRECT";
+function FindProxyForURL(url, host) {
+    // Your proxy server name and port
+    var proxyserver = "yanggis.f3322.org:3128";
+    //
+    //  Here's a list of hosts to connect via the PROXY server
+    //
+    var proxylist = new Array(
+"vv.play.aiseet.atianqi.com", 
+"dpool.sina.com.cn", 
+"module.youku.com", 
+"pl.youku.com", 
+"v.pptv.com", 
+"hot2.vrs.sohu.com", 
+"api.launch.hd.sohu.com", 
+"api.hubo.ott.sohu.com", 
+"v2.tudou.com", 
+"gslb.letvapp.net", 
+"v.youku.com", 
+"api.youku.com", 
+"play.youku.com", 
+"s.plcloud.music.qq.com", 
+"i.y.qq.com", 
+"hot.vrs.sohu.com", 
+"live.tv.sohu.com", 
+"pad.tv.sohu.com", 
+"my.tv.sohu.com", 
+"hot.vrs.letv.com", 
+"data.video.qiyi.com", 
+"cache.video.qiyi.com", 
+"cache.vip.qiyi.com", 
+"v.api.hunantv.com", 
+"vv.video.qq.com", 
+"tt.video.qq.com", 
+"ice.video.qq.com", 
+"tjsa.video.qq.com", 
+"a10.video.qq.com", 
+"xyy.video.qq.com", 
+"vcq.video.qq.com", 
+"vsh.video.qq.com", 
+"vbj.video.qq.com", 
+"bobo.video.qq.com", 
+"flvs.video.qq.com", 
+"bkvv.video.qq.com", 
+"qzs.qq.com", 
+"info.zb.qq.com", 
+"geo.js.kankan.xunlei.com", 
+"web-play.pptv.com", 
+"web-play.pplive.cn", 
+"dyn.ugc.pps.tv", 
+"v.pps.tv", 
+"inner.kandian.com", 
+"ipservice.163.com", 
+"so.open.163.com", 
+"zb.s.qq.com", 
+"ip.kankan.xunlei.com", 
+"vxml.56.com", 
+"music.sina.com.cn", 
+"play.baidu.com", 
+"v.iask.com", 
+"tv.weibo.com", 
+"wtv.v.iask.com", 
+"video.sina.com.cn", 
+"www.yinyuetai.com", 
+"api.letv.com", 
+"live.gslb.letv.com", 
+"static.itv.letv.com", 
+"ip.apps.cntv.cn", 
+"vdn.apps.cntv.cn", 
+"vdn.live.cntv.cn", 
+"vip.sports.cntv.cn", 
+"a.play.api.3g.youku.com", 
+"i.play.api.3g.youku.com", 
+"api.3g.youku.com", 
+"tv.api.3g.youku.com", 
+"play.api.3g.youku.com", 
+"play.api.3g.tudou.com", 
+"tv.api.3g.tudou.com", 
+"api.3g.tudou.com", 
+"api.tv.sohu.com", 
+"access.tv.sohu.com", 
+"iface.iqiyi.com", 
+"iface2.iqiyi.com", 
+"cache.m.iqiyi.com", 
+"dynamic.app.m.letv.com", 
+"dynamic.meizi.app.m.letv.com", 
+"dynamic.search.app.m.letv.com", 
+"dynamic.live.app.m.letv.com", 
+"listso.m.areainfo.ppstream.com", 
+"epg.api.pptv.com", 
+"play.api.pptv.com", 
+"m.letv.com", 
+"api.mob.app.letv.com", 
+"interface.bilibili.com", 
+"3g.music.qq.com", 
+"mqqplayer.3g.qq.com", 
+"proxy.music.qq.com", 
+"proxymc.qq.com", 
+"ip2.kugou.com", 
+"ip.kugou.com", 
+"client.api.ttpod.com", 
+"mobi.kuwo.cn", 
+"mobilefeedback.kugou.com", 
+"tingapi.ting.baidu.com", 
+"music.baidu.com", 
+"serviceinfo.sdk.duomi.com", 
+"music.163.com", 
+"www.xiami.com", 
+"spark.api.xiami.com", 
+"iplocation.geo.qiyi.com", 
+"sns.video.qq.com", 
+"v5.pc.duomi.com", 
+"tms.is.ysten.com", 
+"internal.check.duokanbox.com", 
+"openapi.youku.com", 
+"ip138.com"
+);
+for(var i=0; i<proxylist.length; i++) {
+  var value = proxylist[i];
+  if ( localHostOrDomainIs(host, value) ) {
+   return "PROXY "+proxyserver;
+  }
  }
-
+ return "DIRECT";
+}
