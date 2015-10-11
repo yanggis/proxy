@@ -5,9 +5,11 @@ function FindProxyForURL(url, host) {
     //  Here's a list of hosts to connect via the PROXY server
     //
     var proxylist = new Array(
-    //"p.l.youku.com",
-    //"index.youku.com",
-    //"ykrec.youku.com",
+    "p.l.youku.com",
+    "v.l.youku.com",
+    "hz.youku.com"
+    "index.youku.com",
+    "ykrec.youku.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
     "module.youku.com", 
@@ -121,6 +123,6 @@ for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
  }
-if (shExpMatch(url, "*youku.com*") || shExpMatch(url, "*tudou.com*")) {return "PROXY "+proxyserver;}
+//if (shExpMatch(url, "*youku.com*") || shExpMatch(url, "*tudou.com*")) {return "PROXY "+proxyserver;}
  return "DIRECT";
 }
