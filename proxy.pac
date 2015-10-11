@@ -118,9 +118,8 @@ function FindProxyForURL(url, host) {
 );
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
-  if ( localHostOrDomainIs(host, value) ) {
-   return "PROXY "+proxyserver;
-  }
+  if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
  }
+if (shExpMatch(url, "*youku.com*") || shExpMatch(url, "*tudou.com*")) {return "PROXY "+proxyserver;}
  return "DIRECT";
 }
