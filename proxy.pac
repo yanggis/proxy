@@ -5,9 +5,9 @@ function FindProxyForURL(url, host) {
     //  Here's a list of hosts to connect via the PROXY server
     //
     var proxylist = new Array(
-    "p.l.youku.com",
-    //"hz.youku.com",
-    "v.l.youku.com",
+    //"p.l.youku.com",
+    "hz.youku.com",
+    //"v.l.youku.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
     "module.youku.com", 
