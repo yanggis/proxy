@@ -117,7 +117,7 @@ function FindProxyForURL(url, host) {
     "tms.is.ysten.com", 
     "internal.check.duokanbox.com", 
     "openapi.youku.com", 
-    "ip138.com",
+    "ip138.com"
     //====================
     //"lives.l.qq.com",
     //"pay.video.qq.com",
