@@ -125,14 +125,15 @@ function FindProxyForURL(url, host) {
     //"mobile.video.qq.com",
     //"video.coral.qq.com",
     //"dp3.qq.com",
-    "sns.video.qq.com",
-    "live.qq.com"
+    //"sns.video.qq.com",
+    //"live.qq.com"
     //====================
 );
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
  }
+//youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
    && (!shExpMatch(url, "*static.atm.youku.com*"))
@@ -140,6 +141,10 @@ if (shExpMatch(url, "*youku.com*")
    && (!shExpMatch(url, "*v.l.youku.com*"))
    && (!shExpMatch(url, "*html.atm.youku.com*"))  //hz.youku.com
    && (!shExpMatch(url, "*hz.youku.com*"))
+   ) {return "PROXY "+proxyserver;}
+//qq.com   
+if (shExpMatch(url, "*qq.com*") 
+   && (!shExpMatch(url, "*vlive.qqvideo.tc.qq.com*"))
    ) {return "PROXY "+proxyserver;}
  return "DIRECT";
 }
