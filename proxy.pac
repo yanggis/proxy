@@ -125,7 +125,7 @@ function FindProxyForURL(url, host) {
     //"mobile.video.qq.com",
     //"video.coral.qq.com",
     //"dp3.qq.com",
-    //"sns.video.qq.com",
+    "sns.video.qq.com",
     "live.qq.com"
     //====================
 );
