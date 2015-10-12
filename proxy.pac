@@ -124,7 +124,9 @@ function FindProxyForURL(url, host) {
     "omgmta.qq.com",
     "mobile.video.qq.com",
     "video.coral.qq.com",
-    "dp3.qq.com"
+    "dp3.qq.com",
+    "sns.video.qq.com",
+    "live.qq.com"
     //====================
 );
 for(var i=0; i<proxylist.length; i++) {
