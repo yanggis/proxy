@@ -119,13 +119,13 @@ function FindProxyForURL(url, host) {
     "openapi.youku.com", 
     "ip138.com",
     //====================
-    "lives.l.qq.com",
-    "pay.video.qq.com",
-    "omgmta.qq.com",
-    "mobile.video.qq.com",
-    "video.coral.qq.com",
-    "dp3.qq.com",
-    "sns.video.qq.com",
+    //"lives.l.qq.com",
+    //"pay.video.qq.com",
+    //"omgmta.qq.com",
+    //"mobile.video.qq.com",
+    //"video.coral.qq.com",
+    //"dp3.qq.com",
+    //"sns.video.qq.com",
     "live.qq.com"
     //====================
 );
