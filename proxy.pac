@@ -143,8 +143,48 @@ if (shExpMatch(url, "*youku.com*")
    && (!shExpMatch(url, "*hz.youku.com*"))
    ) {return "PROXY "+proxyserver;}
 //qq.com   
-if (shExpMatch(url, "*qq.com*") 
-   && (!shExpMatch(url, "*vlive.qqvideo.tc.qq.com*"))
-   ) {return "PROXY "+proxyserver;}
+//if (shExpMatch(url, "*qq.com*") 
+//   && (!shExpMatch(url, "*vlive.qqvideo.tc.qq.com*"))
+//   ) {return "PROXY "+proxyserver;}
+if (shExpMatch(host, "zb.s.qq.com")) { return "PROXY 61.191.27.117:443" } 
+else if (shExpMatch(host, "vv.video.qq.com")) {return "PROXY 61.191.27.117:443"} 
+else if (shExpMatch(host, "info.zb.qq.com")) { return "PROXY 61.191.27.117:443" } 
+else if (shExpMatch(host, "tt.video.qq.com")) { return "PROXY 61.191.27.117:443" } 
+else if (shExpMatch(host, "ice.video.qq.com")) {return "PROXY 61.191.27.117:443"} 
+else if (shExpMatch(host, "tjsa.video.qq.com")) {return "PROXY 61.191.27.117:443"} 
+else if (shExpMatch(host, "a10.video.qq.com")) {return "PROXY 61.191.27.117:443"} 
+else if (shExpMatch(host, "xyy.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "vcq.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "vsh.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "vbj.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "bobo.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "flvs.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "bkvv.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "aid.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "aidbak.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "pay.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    } else if (shExpMatch(host
+            , "paybak.video.qq.com")) {
+        return "PROXY 61.191.27.117:443"
+    }
  return "DIRECT";
 }
