@@ -129,7 +129,7 @@ function FindProxyForURL(url, host) {
     //"live.qq.com"
     //====================
 );
-
+/*
 var qqproxylist = new Array(
 "zb.s.qq.com", 
 "vv.video.qq.com", 
@@ -154,7 +154,7 @@ for(var i=0; i<qqproxylist.length; i++) {
   var value = qqproxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY 61.191.27.117:443";}
  }
-
+*/
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
@@ -165,7 +165,7 @@ if (shExpMatch(url, "*youku.com*")
    && (!shExpMatch(url, "*static.atm.youku.com*"))
    && (!shExpMatch(url, "*p.l.youku.com*"))
    && (!shExpMatch(url, "*v.l.youku.com*"))
-   && (!shExpMatch(url, "*html.atm.youku.com*"))  //hz.youku.com
+   && (!shExpMatch(url, "*html.atm.youku.com*"))
    && (!shExpMatch(url, "*hz.youku.com*"))
    ) {return "PROXY "+proxyserver;}
 return "DIRECT";
