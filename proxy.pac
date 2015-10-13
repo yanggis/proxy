@@ -129,32 +129,7 @@ function FindProxyForURL(url, host) {
     //"live.qq.com"
     //====================
 );
-/*
-var qqproxylist = new Array(
-"zb.s.qq.com", 
-"vv.video.qq.com", 
-"info.zb.qq.com",
-"tt.video.qq.com",
-"ice.video.qq.com",
-"tjsa.video.qq.com",
- "a10.video.qq.com",
- "xyy.video.qq.com",
- "vcq.video.qq.com",
- "vsh.video.qq.com", 
-"vbj.video.qq.com", 
-"bobo.video.qq.com", 
-"flvs.video.qq.com",
-"bkvv.video.qq.com", 
- "aid.video.qq.com", 
-"aidbak.video.qq.com",
-"pay.video.qq.com", 
-"paybak.video.qq.com");
 
-for(var i=0; i<qqproxylist.length; i++) {
-  var value = qqproxylist[i];
-  if ( localHostOrDomainIs(host, value) ) { return "PROXY 61.191.27.117:443";}
- }
-*/
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
