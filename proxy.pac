@@ -129,6 +129,32 @@ function FindProxyForURL(url, host) {
     //"live.qq.com"
     //====================
 );
+
+var qqproxylist = new Array(
+"zb.s.qq.com", 
+"vv.video.qq.com", 
+"info.zb.qq.com",
+"tt.video.qq.com",
+"ice.video.qq.com",
+"tjsa.video.qq.com",
+ "a10.video.qq.com",
+ "xyy.video.qq.com",
+ "vcq.video.qq.com",
+ "vsh.video.qq.com", 
+"vbj.video.qq.com", 
+"bobo.video.qq.com", 
+"flvs.video.qq.com",
+"bkvv.video.qq.com", 
+ "aid.video.qq.com", 
+"aidbak.video.qq.com",
+"pay.video.qq.com", 
+"paybak.video.qq.com");
+
+for(var i=0; i<qqproxylist.length; i++) {
+  var value = qqproxylist[i];
+  if ( localHostOrDomainIs(host, value) ) { return "PROXY 61.191.27.117:443";}
+ }
+
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
@@ -142,49 +168,5 @@ if (shExpMatch(url, "*youku.com*")
    && (!shExpMatch(url, "*html.atm.youku.com*"))  //hz.youku.com
    && (!shExpMatch(url, "*hz.youku.com*"))
    ) {return "PROXY "+proxyserver;}
-//qq.com   
-//if (shExpMatch(url, "*qq.com*") 
-//   && (!shExpMatch(url, "*vlive.qqvideo.tc.qq.com*"))
-//   ) {return "PROXY "+proxyserver;}
-if (shExpMatch(host, "zb.s.qq.com")) { return "PROXY 61.191.27.117:443" } 
-else if (shExpMatch(host, "vv.video.qq.com")) {return "PROXY 61.191.27.117:443"} 
-else if (shExpMatch(host, "info.zb.qq.com")) { return "PROXY 61.191.27.117:443" } 
-else if (shExpMatch(host, "tt.video.qq.com")) { return "PROXY 61.191.27.117:443" } 
-else if (shExpMatch(host, "ice.video.qq.com")) {return "PROXY 61.191.27.117:443"} 
-else if (shExpMatch(host, "tjsa.video.qq.com")) {return "PROXY 61.191.27.117:443"} 
-else if (shExpMatch(host, "a10.video.qq.com")) {return "PROXY 61.191.27.117:443"} 
-else if (shExpMatch(host, "xyy.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "vcq.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "vsh.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "vbj.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "bobo.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "flvs.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "bkvv.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "aid.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "aidbak.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "pay.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    } else if (shExpMatch(host
-            , "paybak.video.qq.com")) {
-        return "PROXY 61.191.27.117:443"
-    }
- return "DIRECT";
+return "DIRECT";
 }
