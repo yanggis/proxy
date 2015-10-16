@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
-    var proxyserver = "104.236.189.178:8000";
+    var proxyserver = "yanggis.f3322.org:3128";
     //
     //  Here's a list of hosts to connect via the PROXY server
     //
