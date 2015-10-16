@@ -8,7 +8,7 @@ function FindProxyForURL(url, host) {
     //"p.l.youku.com",
     //"v.l.youku.com",
     //"hz.youku.com",
-    //"index.youku.com",
+    "s.webp2p.letv.com",
     "selector.webp2p.letv.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
