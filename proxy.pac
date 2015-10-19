@@ -7,7 +7,7 @@ function FindProxyForURL(url, host) {
     var proxylist = new Array(
     //"p.l.youku.com",
     //"v.l.youku.com",
-    //"hz.youku.com",
+    "pad.api.hunantv.com",
     "s.webp2p.letv.com",
     "selector.webp2p.letv.com",
     "vv.play.aiseet.atianqi.com", 
