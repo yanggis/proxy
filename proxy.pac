@@ -7,8 +7,8 @@ function FindProxyForURL(url, host) {
     var proxylist = new Array(
     "platform.sina.com.cn",
     //"7d.v.iask.com",
-    //"wtv.v.iask.com",    
-    "sax.sina.com.cn",
+    "wtv.v.iask.com",    
+    //"sax.sina.com.cn",
     "api.tv.sohu.com",
     "pad.api.hunantv.com",
     "s.webp2p.letv.com",
