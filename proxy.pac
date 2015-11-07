@@ -11,8 +11,8 @@ function FindProxyForURL(url, host) {
     //"sax.sina.com.cn",
     "api.tv.sohu.com",
     "pad.api.hunantv.com",
-    "s.webp2p.letv.com",
-    "selector.webp2p.letv.com",
+    //"s.webp2p.letv.com",
+    //"selector.webp2p.letv.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
     "module.youku.com", 
@@ -89,16 +89,6 @@ function FindProxyForURL(url, host) {
     "iplocation.geo.qiyi.com", 
     "sns.video.qq.com", 
     "ip138.com"
-    //====================
-    //"lives.l.qq.com",
-    //"pay.video.qq.com",
-    //"omgmta.qq.com",
-    //"mobile.video.qq.com",
-    //"video.coral.qq.com",
-    //"dp3.qq.com",
-    //"sns.video.qq.com",
-    //"live.qq.com"
-    //====================
 );
 
 for(var i=0; i<proxylist.length; i++) {
