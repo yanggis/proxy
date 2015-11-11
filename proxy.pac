@@ -5,14 +5,12 @@ function FindProxyForURL(url, host) {
     //  Here's a list of hosts to connect via the PROXY server
     //
     var proxylist = new Array(
-    "platform.sina.com.cn",
-    "rock501.hunantv.com",
     "wtv.v.iask.com",    
-    "ykrec.youku.com",
     "api.tv.sohu.com",
     "pad.api.hunantv.com",
     //"s.webp2p.letv.com",
     //"selector.webp2p.letv.com",
+    "bkvv.play.aiseet.atianqi.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
     "module.youku.com", 
@@ -96,13 +94,13 @@ for(var i=0; i<proxylist.length; i++) {
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
  }
 //youku
-//if (shExpMatch(url, "*youku.com*") 
-//   && (!shExpMatch(url, "*static.youku.com*"))
-//   && (!shExpMatch(url, "*static.atm.youku.com*"))
-//   && (!shExpMatch(url, "*p.l.youku.com*"))
-//   && (!shExpMatch(url, "*v.l.youku.com*"))
-//   && (!shExpMatch(url, "*html.atm.youku.com*"))
-//   && (!shExpMatch(url, "*hz.youku.com*"))
-//   ) {return "PROXY "+proxyserver;}
+if (shExpMatch(url, "*youku.com*") 
+   && (!shExpMatch(url, "*static.youku.com*"))
+   && (!shExpMatch(url, "*static.atm.youku.com*"))
+   && (!shExpMatch(url, "*p.l.youku.com*"))
+   && (!shExpMatch(url, "*v.l.youku.com*"))
+   && (!shExpMatch(url, "*html.atm.youku.com*"))
+   && (!shExpMatch(url, "*hz.youku.com*"))
+   ) {return "PROXY "+proxyserver;}
 return "DIRECT";
 }
