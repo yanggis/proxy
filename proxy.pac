@@ -8,7 +8,7 @@ function FindProxyForURL(url, host) {
     "wtv.v.iask.com",    
     "api.tv.sohu.com",
     "pad.api.hunantv.com",
-    "api.bilibili.com",
+    "app.bilibili.com",
     //"selector.webp2p.letv.com",
     "bkvv.play.aiseet.atianqi.com",
     "vv.play.aiseet.atianqi.com", 
