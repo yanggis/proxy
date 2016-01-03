@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
     "api.tv.sohu.com",
     "pad.api.hunantv.com",
     "www.bilibili.com",
-    "220.181.61.240",
+    "tv.sohu.com",
     //"selector.webp2p.letv.com",
     "bkvv.play.aiseet.atianqi.com",
     "vv.play.aiseet.atianqi.com", 
