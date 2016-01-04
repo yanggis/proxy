@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
     "pad.api.hunantv.com",
     "www.bilibili.com",
     //"tv.sohu.com",
-    "220.181.61.212",
+    //"220.181.61.212",
     "bkvv.play.aiseet.atianqi.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
@@ -95,6 +95,7 @@ for(var i=0; i<proxylist.length; i++) {
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
  }
  //sohu
+ if (shExpMatch(url, "http://220.181.61.212/*"))   { return "PROXY "+proxyserver;}
  //if (shExpMatch(url, "*220.181.61.240*"){ return "PROXY "+proxyserver;}
 //youku
 if (shExpMatch(url, "*youku.com*") 
