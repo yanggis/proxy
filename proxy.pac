@@ -11,6 +11,7 @@ function FindProxyForURL(url, host) {
     "www.bilibili.com",
     "data.bilibili.com",
     "app.bilibili.com",
+    "api.bilibili.com",
     "bkvv.play.aiseet.atianqi.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
