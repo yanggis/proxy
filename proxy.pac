@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
     "pad.api.hunantv.com",
     "www.bilibili.com",
     "data.bilibili.com",
-    //"220.181.61.212",
+    "app.bilibili.com",
     "bkvv.play.aiseet.atianqi.com",
     "vv.play.aiseet.atianqi.com", 
     "dpool.sina.com.cn", 
