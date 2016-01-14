@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
-    var proxyserver = "yanggis.f3322.org:3128";
+    var proxyserver = "linksg.f3322.net:4567";
     //
     //  Here's a list of hosts to connect via the PROXY server
     //
@@ -9,9 +9,6 @@ function FindProxyForURL(url, host) {
     "api.tv.sohu.com",
     "pad.api.hunantv.com",
     "www.bilibili.com",
-    //"data.bilibili.com",
-    //"app.bilibili.com",
-    //"api.bilibili.com",
     "bangumi.bilibili.com",
     "bkvv.play.aiseet.atianqi.com",
     "vv.play.aiseet.atianqi.com", 
@@ -98,7 +95,6 @@ for(var i=0; i<proxylist.length; i++) {
  }
  //sohu
  if (shExpMatch(url, "*220.181.61*"))   { return "PROXY "+proxyserver;}
- //if (shExpMatch(url, "*220.181.61.240*"){ return "PROXY "+proxyserver;}
 //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
