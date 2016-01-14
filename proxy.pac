@@ -95,8 +95,9 @@ for(var i=0; i<proxylist.length; i++) {
  }
  //sohu
  if (shExpMatch(url, "*220.181.61*"))   { return "PROXY "+proxyserver;}
- //sohu
  if (shExpMatch(url, "*101.227.173*"))   { return "PROXY "+proxyserver;}
+ if (shExpMatch(url, "*123.125.123*"))   { return "PROXY "+proxyserver;}
+ 
  //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
