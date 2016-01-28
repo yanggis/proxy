@@ -95,9 +95,8 @@ for(var i=0; i<proxylist.length; i++) {
  }
  //sohu
  if (shExpMatch(url, "*base/fcgi-bin/getsession*"))   { return "PROXY "+proxyserver;}
- if (shExpMatch(url, "*123.125.123.80*"))   { return "PROXY "+proxyserver;}
- if (shExpMatch(url, "*123.125.123.82*"))   { return "PROXY "+proxyserver;}
- if (shExpMatch(url, "*111.13.123.147*"))   { return "PROXY "+proxyserver;}
+ if (shExpMatch(url, "*123.125.123.*"))   { return "PROXY "+proxyserver;}
+  if (shExpMatch(url, "*111.13.123.147*"))   { return "PROXY "+proxyserver;}
  if (shExpMatch(url, "*111.13.123.146*"))   { return "PROXY "+proxyserver;}
  //youku
 if (shExpMatch(url, "*youku.com*") 
