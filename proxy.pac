@@ -96,6 +96,7 @@ for(var i=0; i<proxylist.length; i++) {
  }
  //sohu
  if (shExpMatch(url, "*base/fcgi-bin/getsession*"))   { return "SOCKS "+proxyserver;}
+ if (shExpMatch(url, "*220.181.61*"))   { return "SOCKS "+proxyserver;}
  if (shExpMatch(url, "*123.125.123*"))   { return "SOCKS "+proxyserver;}
  if (shExpMatch(url, "*111.13.123.147*"))   { return "SOCKS "+proxyserver;}
  if (shExpMatch(url, "*111.13.123.146*"))   { return "SOCKS "+proxyserver;}
