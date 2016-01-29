@@ -92,13 +92,13 @@ function FindProxyForURL(url, host) {
 
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
-  if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
+  if ( localHostOrDomainIs(host, value) ) { return "SOCKS "+proxyserver;}
  }
  //sohu
- if (shExpMatch(url, "*base/fcgi-bin/getsession*"))   { return "PROXY "+proxyserver;}
- if (shExpMatch(url, "*123.125.123*"))   { return "PROXY "+proxyserver;}
- if (shExpMatch(url, "*111.13.123.147*"))   { return "PROXY "+proxyserver;}
- if (shExpMatch(url, "*111.13.123.146*"))   { return "PROXY "+proxyserver;}
+ if (shExpMatch(url, "*base/fcgi-bin/getsession*"))   { return "SOCKS "+proxyserver;}
+ if (shExpMatch(url, "*123.125.123*"))   { return "SOCKS "+proxyserver;}
+ if (shExpMatch(url, "*111.13.123.147*"))   { return "SOCKS "+proxyserver;}
+ if (shExpMatch(url, "*111.13.123.146*"))   { return "SOCKS "+proxyserver;}
  //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
@@ -107,6 +107,6 @@ if (shExpMatch(url, "*youku.com*")
    && (!shExpMatch(url, "*v.l.youku.com*"))
    && (!shExpMatch(url, "*html.atm.youku.com*"))
    && (!shExpMatch(url, "*hz.youku.com*"))
-   ) {return "PROXY "+proxyserver;}
+   ) {return "SOCKS "+proxyserver;}
 return "DIRECT";
 }
