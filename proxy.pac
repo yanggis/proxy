@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
-    var proxyserver = "yanggis.f3322.org:10080";
+    var proxyserver = "104.236.189.178:4567";
     //
     //  Here's a list of hosts to connect via the PROXY server
     //
@@ -92,14 +92,14 @@ function FindProxyForURL(url, host) {
 
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
-  if ( localHostOrDomainIs(host, value) ) { return "SOCKS "+proxyserver;}
+  if ( localHostOrDomainIs(host, value) ) { return "PRYOXY "+proxyserver;}
  }
  //sohu
- if (shExpMatch(url, "*base/fcgi-bin/getsession*"))   { return "SOCKS "+proxyserver;}
- if (shExpMatch(url, "*220.181.61*"))   { return "SOCKS "+proxyserver;}
- if (shExpMatch(url, "*123.125.123*"))   { return "SOCKS "+proxyserver;}
- if (shExpMatch(url, "*111.13.123.147*"))   { return "SOCKS "+proxyserver;}
- if (shExpMatch(url, "*111.13.123.146*"))   { return "SOCKS "+proxyserver;}
+ if (shExpMatch(url, "*base/fcgi-bin/getsession*"))   { return "PRYOXY "+proxyserver;}
+ if (shExpMatch(url, "*220.181.61*"))   { return "PRYOXY "+proxyserver;}
+ if (shExpMatch(url, "*123.125.123*"))   { return "PRYOXY "+proxyserver;}
+ if (shExpMatch(url, "*111.13.123.147*"))   { return "PRYOXY "+proxyserver;}
+ if (shExpMatch(url, "*111.13.123.146*"))   { return "PRYOXY "+proxyserver;}
  //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
@@ -108,6 +108,6 @@ if (shExpMatch(url, "*youku.com*")
    && (!shExpMatch(url, "*v.l.youku.com*"))
    && (!shExpMatch(url, "*html.atm.youku.com*"))
    && (!shExpMatch(url, "*hz.youku.com*"))
-   ) {return "SOCKS "+proxyserver;}
+   ) {return "PRYOXY "+proxyserver;}
 return "DIRECT";
 }
