@@ -6,6 +6,11 @@ function FindProxyForURL(url, host) {
     //
     var proxylist = new Array(
     "sohu.vodnew.lxdns.com",    
+    "gslb.live.video123456.com
+    "acc.music.qq.com",
+    "api.appsdk.soku.com",
+    "app.bilibili.com",
+    "www.soku.com",
     "wtv.v.iask.com",    
     "api.tv.sohu.com",
     "pad.api.hunantv.com",
@@ -95,11 +100,11 @@ for(var i=0; i<proxylist.length; i++) {
   if ( localHostOrDomainIs(host, value) ) { return "PRYOXY "+proxyserver;}
  }
  //sohu
- if (shExpMatch(url, "*base/fcgi-bin/getsession*"))   { return "PRYOXY "+proxyserver;}
+ //if (shExpMatch(url, "*base/fcgi-bin/getsession*"))   { return "PRYOXY "+proxyserver;}
  if (shExpMatch(url, "*220.181.61*"))   { return "PRYOXY "+proxyserver;}
- if (shExpMatch(url, "*123.125.123*"))   { return "PRYOXY "+proxyserver;}
- if (shExpMatch(url, "*111.13.123.147*"))   { return "PRYOXY "+proxyserver;}
- if (shExpMatch(url, "*111.13.123.146*"))   { return "PRYOXY "+proxyserver;}
+ //if (shExpMatch(url, "*123.125.123*"))   { return "PRYOXY "+proxyserver;}
+ //if (shExpMatch(url, "*111.13.123.147*"))   { return "PRYOXY "+proxyserver;}
+ //if (shExpMatch(url, "*111.13.123.146*"))   { return "PRYOXY "+proxyserver;}
  //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
