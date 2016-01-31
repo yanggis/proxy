@@ -10,6 +10,7 @@ function FindProxyForURL(url, host) {
     "mi.gdt.qq.com",
     "stat.3g.music.qq.com",
     "220.249.243.70",
+    "103.7.30.89",
     "103.7.31.186",
     "14.18.245.250",
     "182.254.116.117",
