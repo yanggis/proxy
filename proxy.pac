@@ -6,9 +6,6 @@ function FindProxyForURL(url, host) {
     //
     var proxylist = new Array(
     "sohu.vodnew.lxdns.com",
-    //"v.gdt.qq.com",
-    //"mi.gdt.qq.com",
-    //"stat.3g.music.qq.com",
     "220.249.243.70",
     "103.7.30.89",
     "103.7.31.186",
@@ -25,7 +22,6 @@ function FindProxyForURL(url, host) {
     "211.151.50.10",
     "220.181.154.137",
     "220.181.185.150",
-    //"monitor.music.qq.com",
     "gslb.live.video123456.com",
     "acc.music.qq.com",
     "api.appsdk.soku.com",
