@@ -6,7 +6,7 @@ function FindProxyForURL(url, host) {
     //
     var proxylist = new Array(
     "sohu.vodnew.lxdns.com",    
-    "gslb.live.video123456.com
+    "gslb.live.video123456.com",
     "acc.music.qq.com",
     "api.appsdk.soku.com",
     "app.bilibili.com",
