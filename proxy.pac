@@ -5,7 +5,8 @@ function FindProxyForURL(url, host) {
     //  Here's a list of hosts to connect via the PROXY server
     //
     var proxylist = new Array(
-    "sohu.vodnew.lxdns.com",    
+    "sohu.vodnew.lxdns.com", 
+    "mi.gdt.qq.com",
     "gslb.live.video123456.com",
     "acc.music.qq.com",
     "api.appsdk.soku.com",
