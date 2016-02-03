@@ -28,6 +28,7 @@ function FindProxyForURL(url, host) {
     "220.181.154.137",
     "220.181.185.150",
     "sasdk.3g.qq.com",
+    "live.g3proxy.lecloud.com",
     "gslb.live.video123456.com",
     "acc.music.qq.com",
     "api.appsdk.soku.com",
