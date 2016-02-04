@@ -31,6 +31,7 @@ function FindProxyForURL(url, host) {
     "115.182.200.54", //letv
     "36.110.222.156", //letv
     "123.125.89.6",//letve
+    "111.206.208.36",//letv
     "sasdk.3g.qq.com",
     "live.g3proxy.lecloud.com",
     "gslb.live.video123456.com",
