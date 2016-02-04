@@ -8,7 +8,7 @@ function FindProxyForURL(url, host) {
     "sohu.vodnew.lxdns.com",
     "api.mob.app.letv.com",
     "dynamic.live.app.m.letv.com",
-    "dynamic.meizi.app.m.letv.com",
+    "s.webp2p.letv.com",
     "220.249.243.70",  //QQ
     "117.185.116.152", //QQ
     "101.227.139.217", //QQ
