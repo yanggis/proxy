@@ -128,8 +128,7 @@ for(var i=0; i<proxylist.length; i++) {
  //sohu
  if (shExpMatch(url, "*220.181.61*"))   { return "PROXY "+proxyserver;}
  //letv
- var regexpr = "*/cde\?arealevel1";
-if(regexpr.test(host)){ return "PROXY "+proxyserver; }
+ if (shExpMatch(url, "*/cde\?arealevel1")){ return "PROXY "+proxyserver; }
  //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
