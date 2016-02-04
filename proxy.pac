@@ -34,6 +34,7 @@ function FindProxyForURL(url, host) {
     "36.110.222.105",//letv
     "123.125.89.6",//letve
     "123.59.122.77",//letv
+    "123.59.122.104",//letv
     "111.206.208.36",//letv
     "111.206.208.163",//letv
     "sasdk.3g.qq.com",
