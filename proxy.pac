@@ -7,7 +7,7 @@ function FindProxyForURL(url, host) {
     var proxylist = new Array(
     "sohu.vodnew.lxdns.com",
     "api.mob.app.letv.com",
-    "dynamic.live.app.m.letv.com",
+    //"dynamic.live.app.m.letv.com",
     "s.webp2p.letv.com",
     "selector.webp2p.letv.com",
     "220.249.243.70",  //QQ
