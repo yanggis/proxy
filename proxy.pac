@@ -124,7 +124,7 @@ var reglist = new Array(
     "*123.59.122.*",  //l
     "*111.206.208.*", //l
     "*111.206.211.*" //l
-}
+};
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
