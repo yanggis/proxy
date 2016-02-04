@@ -124,7 +124,8 @@ var reglist = new Array(
     "*123.126.32.*",  //l
     "*123.59.122.*",  //l
     "*111.206.208.*", //l
-    "*111.206.211.*" //l
+    "*111.206.211.*", //l
+    "*36.110.222.*"  //l
 );
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
