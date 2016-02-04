@@ -117,16 +117,29 @@ function FindProxyForURL(url, host) {
     "sns.video.qq.com", 
     "ip138.com"
 );
-
+var reglist = new Array(
+    "*220.181.61.*", //s
+    "*123.125.89.*", //l
+    "*123.126.32.*",  //l
+    "*123.59.122.*",  //l
+    "*111.206.208.*", //l
+    "*111.206.211.*" //l
+}
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
  }
+ 
+ for(var i=0; i<reglist.length; i++) {
+  var value = reglist[i];
+  if ( shExpMatch(url, value) ) { return "PROXY "+proxyserver;}
+ }
+ 
  //sohu
- if (shExpMatch(url, "*220.181.61*"))   { return "PROXY "+proxyserver;}
+ //if (shExpMatch(url, "*220.181.61*"))   { return "PROXY "+proxyserver;}
  //letv
- if (shExpMatch(url, "*/cde\?arealevel1=*")){ return "PROXY "+proxyserver; }
- if (shExpMatch(url, "*heartBeat\?arealevel1=*")){ return "PROXY "+proxyserver; }
+ //if (shExpMatch(url, "*/cde\?arealevel1=*")){ return "PROXY "+proxyserver; }
+ //if (shExpMatch(url, "*heartBeat\?arealevel1=*")){ return "PROXY "+proxyserver; }
  
  //youku
 if (shExpMatch(url, "*youku.com*") 
