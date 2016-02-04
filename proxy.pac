@@ -6,6 +6,7 @@ function FindProxyForURL(url, host) {
     //
     var proxylist = new Array(
     "sohu.vodnew.lxdns.com",
+    "api.mob.app.letv.com",
     "220.249.243.70",  //QQ
     "117.185.116.152", //QQ
     "101.227.139.217", //QQ
@@ -134,13 +135,6 @@ for(var i=0; i<proxylist.length; i++) {
   var value = reglist[i];
   if ( shExpMatch(url, value) ) { return "PROXY "+proxyserver;}
  }
- 
- //sohu
- //if (shExpMatch(url, "*220.181.61*"))   { return "PROXY "+proxyserver;}
- //letv
- //if (shExpMatch(url, "*/cde\?arealevel1=*")){ return "PROXY "+proxyserver; }
- //if (shExpMatch(url, "*heartBeat\?arealevel1=*")){ return "PROXY "+proxyserver; }
- 
  //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
