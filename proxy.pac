@@ -9,6 +9,7 @@ function FindProxyForURL(url, host) {
     "api.mob.app.letv.com",
     "dynamic.live.app.m.letv.com",
     "s.webp2p.letv.com",
+    "selector.webp2p.letv.com",
     "220.249.243.70",  //QQ
     "117.185.116.152", //QQ
     "101.227.139.217", //QQ
