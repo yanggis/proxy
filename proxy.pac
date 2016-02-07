@@ -78,6 +78,7 @@ function FindProxyForURL(url, host) {
     "api.letv.com", 
     "live.gslb.letv.com", 
     "static.itv.letv.com", 
+    "static.api.sports.letv.com",
     "ip.apps.cntv.cn", 
     "vdn.apps.cntv.cn", 
     "vdn.live.cntv.cn", 
