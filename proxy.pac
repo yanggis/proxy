@@ -103,7 +103,6 @@ function FindProxyForURL(url, host) {
     "api.mob.app.letv.com", 
     "interface.bilibili.com", 
     "3g.music.qq.com", 
-    "mqqplayer.3g.qq.com", 
     "proxy.music.qq.com", 
     "proxymc.qq.com", 
     "ip2.kugou.com", 
