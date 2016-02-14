@@ -123,19 +123,56 @@ function FindProxyForURL(url, host) {
 );
 var reglist = new Array(
     "*220.181.61.*", //s
-    "*36.110.222.*",  //l
-    "*123.125.89.*", //l
-    "*123.126.32.*", //l
-    "*123.59.122.*", //l
-    "*111.206.208.*",//l
-    "*111.206.211.*",//l
-    "*220.181.153.*", //l
-    "*220.181.117.*", //l
-    "*14.152.77.*",     //l    
-    "*183.232.229.*", //l
-    "*115.182.200.*", //l
-    "*115.182.63.*"
+     "*115.182.63.*" //letv
 );
+var letvlist=new Array(
+    "36.110.222.105",//letv
+    "36.110.222.119",//letv
+    "36.110.222.146",//letv
+    "36.110.222.156", //letv
+    "123.125.89.6",//letve
+    "123.125.89.101",//letv
+    "123.125.89.102",//letv
+    "123.125.89.103",//letv
+    "123.125.89.157",//letv
+    "123.125.89.159",//letv
+    "123.126.32.134",//letv
+    "123.59.122.75",//letv
+    "123.59.122.76",//letv
+    "123.59.122.77",//letv
+    "123.59.122.104",//letv
+    "111.206.208.36",//letv
+    "111.206.208.37",//letv
+    "111.206.208.38", //letv
+    "111.206.208.61",//letv
+    "111.206.208.62",//letv
+    "111.206.208.163",//letv
+    "111.206.208.164",//letv
+    "111.206.208.166",//letv
+    "111.206.211.145",//letv
+    "111.206.211.146",//letv
+    "111.206.211.147",//letv
+    "111.206.211.148",//letv
+    "111.206.211.129",//letv
+    "111.206.211.130",//letv
+    "111.206.211.131",//letv
+    "220.181.153.113",//letv
+    "14.152.77.32", //letv
+    "14.152.77.26", //letv
+    "14.152.77.25", //letv
+    "14.152.77.22", //letv
+    "183.232.229.22",//letv
+    "183.232.229.21",//letv
+    "183.232.229.25",//letv
+    "183.232.229.32",//letv
+    "115.182.200.51",//letv
+    "115.182.200.50", //letv
+    "115.182.200.54", //letv
+    "115.182.200.53", //letv
+    "115.182.200.52", //letv
+    "115.182.63.51", //letv
+    "115.182.63.93" //letv
+    );
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
@@ -145,6 +182,12 @@ for(var i=0; i<proxylist.length; i++) {
   var value = reglist[i];
   if ( shExpMatch(url, value) ) { return "PROXY "+proxyserver;}
  }
+ //letv
+ for(var i=0; i<letvlist.length; i++) {
+  var value = letvlist[i];
+  if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
+ }
+ 
  //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
