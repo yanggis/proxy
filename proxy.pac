@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
     "sohu.vodnew.lxdns.com",
     "tools.aplusapi.pptv.com",
     "dispatcher.video.sina.com.cn",
+    "ssports.smgbb.cn",
     "ac.qq.com",
     "douban.fm",
     "220.249.243.70",  //QQ
