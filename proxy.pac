@@ -9,8 +9,10 @@ function FindProxyForURL(url, host) {
     "tools.aplusapi.pptv.com",
     "dispatcher.video.sina.com.cn",
     "ssports.smgbb.cn",
+    "zhibo.ssports.com",
     "ac.qq.com",
     "douban.fm",
+    "www.ssports.com",
     "220.249.243.70",  //QQ
     "117.185.116.152", //QQ
     "101.227.139.217", //QQ
