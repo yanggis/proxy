@@ -8,11 +8,11 @@ function FindProxyForURL(url, host) {
     "sohu.vodnew.lxdns.com",
     "tools.aplusapi.pptv.com",
     "dispatcher.video.sina.com.cn",
-    "ssports.smgbb.cn",
-    "zhibo.ssports.com",
+    //"ssports.smgbb.cn",
+    //"zhibo.ssports.com",
     "ac.qq.com",
     "douban.fm",
-    "ssports.vod.smgbb.cn.cloudcdn.net",
+    //"ssports.vod.smgbb.cn.cloudcdn.net",
     "220.249.243.70",  //QQ
     "117.185.116.152", //QQ
     "101.227.139.217", //QQ
