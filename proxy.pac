@@ -12,7 +12,7 @@ function FindProxyForURL(url, host) {
     "zhibo.ssports.com",
     "ac.qq.com",
     "douban.fm",
-    "www.ssports.com",
+    "ssports.vod.smgbb.cn.cloudcdn.net",
     "220.249.243.70",  //QQ
     "117.185.116.152", //QQ
     "101.227.139.217", //QQ
