@@ -44,3 +44,10 @@
     "115.182.200.52", //letv
     "115.182.63.51", //letv
     "115.182.63.93", //letv
+1;mi.gdt.qq.com
+1;oth.str.mdt.qq.com
+1;oth.eve.mdt.qq.com
+1;c.isdspeed.qq.com
+1;pingfore.qq.com
+1;y.qq.com
+1;report.huatuo.qq.com
