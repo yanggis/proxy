@@ -51,3 +51,4 @@
 1;pingfore.qq.com
 1;y.qq.com
 1;report.huatuo.qq.com
+antiserver.kuwo.cn
