@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
     "tools.aplusapi.pptv.com",
     "dispatcher.video.sina.com.cn",
     "plt.data.pplive.com",
-    //"zhibo.ssports.com",
+    "epg.api.pptv.com",
     "ac.qq.com",
     "douban.fm",
     "www.kuwo.cn",
