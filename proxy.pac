@@ -10,6 +10,7 @@ function FindProxyForURL(url, host) {
     "dispatcher.video.sina.com.cn",
     "plt.data.pplive.com",
     "epg.api.pptv.com",
+    "117.135.161.99",
     "ac.qq.com",
     "douban.fm",
     "www.kuwo.cn",
