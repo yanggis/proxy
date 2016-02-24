@@ -11,6 +11,7 @@ function FindProxyForURL(url, host) {
     "plt.data.pplive.com",
     "epg.api.pptv.com",
     "117.135.161.99",
+    "mobile.api.hunantv.com",
     "ac.qq.com",
     "douban.fm",
     "www.kuwo.cn",
