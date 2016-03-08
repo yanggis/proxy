@@ -64,7 +64,6 @@ function FindProxyForURL(url, host) {
     "i.y.qq.com", 
     "hot.vrs.sohu.com", 
     "hot.vrs.letv.com", 
-    "data.video.qiyi.com", 
     "cache.video.qiyi.com", 
     "cache.vip.qiyi.com", 
     "v.api.hunantv.com", 
