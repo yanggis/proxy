@@ -127,6 +127,7 @@ function FindProxyForURL(url, host) {
 );
 var reglist = new Array(
     "*220.181.61.*", //s
+    "*123.125.123.*", //s
     "*115.182.63.*" //letv
 );
 
