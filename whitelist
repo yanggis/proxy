@@ -9,6 +9,8 @@
 1;info.zb.video.qq.com
 1;pad.api.hunantv.com
 1;v.api.hunantv.com
+1;live.api.hunantv.com
+1;mobile.api.hunantv.com
 1;api.www.letv.com
 1;sdk.m.youku.com
 1;cibn.api.3g.cp31.ott.cibntv.net
@@ -116,7 +118,6 @@
 1;dispatcher.video.sina.com.cn
 1;douban.fm
 1;ac.qq.com
-1;mobile.api.hunantv.com
 1;api.le.com
 1;h5vv.video.qq.com
 1;data.vod.itc.cn
