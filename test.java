@@ -57,3 +57,5 @@ antiserver.kuwo.cn
 123.125.123.82//sohu
 123.125.123.81//sohu
 123.125.123.80//sohu
+1;iface.iqiyi.com
+1;iface2.iqiyi.com
