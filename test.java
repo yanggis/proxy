@@ -59,6 +59,8 @@ antiserver.kuwo.cn
 123.125.123.80//sohu
 111.13.123.146 //sohu
 111.13.123.147 //sohu
+121.46.19.92 //sohu
+121.46.19.91 //sohu
 1;iface.iqiyi.com
 1;iface2.iqiyi.com
 1;web-play.pptv.com
