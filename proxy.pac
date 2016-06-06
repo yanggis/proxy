@@ -126,23 +126,13 @@ function FindProxyForURL(url, host) {
     "sns.video.qq.com", 
     "ip138.com"
 );
-var reglist = new Array(
-    "*121.46.19.*", //s
-    "*123.125.123.*", //s
-    "*115.182.63.*" //letv
-);
 
 for(var i=0; i<proxylist.length; i++) {
   var value = proxylist[i];
   if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
  }
  
- for(var i=0; i<reglist.length; i++) {
-  var value = reglist[i];
-  if ( shExpMatch(url, value) ) { return "PROXY "+proxyserver;}
- }
-
- //youku
+//youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
    && (!shExpMatch(url, "*static.atm.youku.com*"))
