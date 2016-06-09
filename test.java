@@ -79,3 +79,4 @@ antiserver.kuwo.cn
 1;iface.iqiyi.com
 1;iface2.iqiyi.com
 1;web-play.pptv.com
+1;data.vod.itc.cn
