@@ -154,11 +154,22 @@ function FindProxyForURL(url, host) {
     "ip138.com"
 );
 
-for(var i=0; i<proxylist.length; i++) {
-  var value = proxylist[i];
-  if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
- }
- 
+var reglist = new Array(
+     "*121.46.19.*", //s
+     "*123.125.123.*" //s
+);
+  
+  for(var i=0; i<proxylist.length; i++) {
+    var value = proxylist[i];
+    if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
+   }
+   
+ for(var i=0; i<reglist.length; i++) {
+  var value = reglist[i];
+   if ( shExpMatch(url, value) ) { return "PROXY "+proxyserver;}
+  }
+
+
 //youku
 if (shExpMatch(url, "*youku.com*") 
    && (!shExpMatch(url, "*static.youku.com*"))
