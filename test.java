@@ -80,3 +80,4 @@ antiserver.kuwo.cn
 1;iface2.iqiyi.com
 1;web-play.pptv.com
 1;data.vod.itc.cn
+1;wtv.v.iask.com
