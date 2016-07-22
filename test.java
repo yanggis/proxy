@@ -82,7 +82,6 @@ antiserver.kuwo.cn
 1;data.vod.itc.cn
 1;wtv.v.iask.com
 1;www.yinyuetai.com
-1;api.live.letv.com
 121.46.19.90;
 121.46.19.91;
 121.46.19.92;
