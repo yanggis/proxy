@@ -1,6 +1,5 @@
 1;101.227.172.20;api.tv.sohu.com
 1;101.227.172.24;api.hubo.ott.sohu.com
-0;101.227.172.24;api.hubo.ott.sohu.com
 1;101.227.188.172;cache.m.iqiyi.com
 1;103.231.71.6;ip2.kugou.com
 1;103.243.94.139;www.kugou.com
@@ -74,7 +73,6 @@
 0;140.205.220.98;spark.api.xiami.com
 1;163.177.68.162;sns.video.qq.com
 1;163.177.72.166;stat.3g.music.qq.com
-0;163.177.72.166;stat.3g.music.qq.com
 1;163.177.79.177;geo.js.kankan.xunlei.com
 1;180.149.136.219;int.dpool.sina.com.cn
 1;180.153.106.25;play.api.cp61.ott.cibntv.net
@@ -91,7 +89,6 @@
 1;202.108.8.149;vdn.apps.cntv.cn
 2;202.46.41.176;v.youku.com
 1;203.116.188.215;vxml.56.com
-0;203.116.188.215;ip138.com
 1;203.205.147.229;i.y.qq.com
 1;203.205.150.17;qzs.qq.com
 1;203.205.151.100;ac.qq.com
@@ -103,15 +100,12 @@
 1;211.151.153.48;play.api.3g.tudou.com
 1;218.60.108.135;apistat.wasu.cn
 1;218.60.45.42;st.live.letv.com
-0;218.60.45.42;st.live.letv.com
 1;220.181.118.49;api.launch.hd.sohu.com
-0;220.181.118.49;api.launch.hd.sohu.com
 1;220.181.118.60;hot.vrs.sohu.com
 1;220.181.119.13;hot2.vrs.sohu.com
 1;220.181.90.14;my.tv.sohu.com
 1;220.181.90.67;hot.vrs.cp45.ott.cibntv.net
 0;220.181.90.67;api.ott.tv.cp45.ott.cibntv.net
-0;220.181.90.67;qc.hd.cp45.ott.cibntv.net
 0;220.181.90.67;qc.hd.cp45.ott.cibntv.net
 1;223.252.199.5;ipservice.163.com
 2;223.252.199.7;music.163.com
@@ -125,7 +119,6 @@
 1;43.250.15.50;api.mobile.youku.com
 1;45.112.212.31;api.3g.youku.com
 1;45.112.212.42;pay.tudou.com
-0;45.112.212.42;pay.youku.com
 1;45.112.212.43;play.api.3g.youku.com
 1;45.112.212.45;play.youku.com
 1;45.112.213.32;a.play.api.3g.youku.com
@@ -159,7 +152,6 @@
 1;59.82.12.31;play-dxk.youku.com
 1;59.82.12.38;xl.api.3g.youku.com
 0;59.82.12.38;tv.api.3g.youku.com
-0;59.82.12.38;xl.api.3g.youku.com
 1;59.82.244.64;pl2.youku.com
 1;59.82.246.31;module.youku.com
 1;60.217.240.41;iplocation.geo.qiyi.com
