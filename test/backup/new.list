@@ -12,6 +12,7 @@
 1;106.38.219.10;iface2.iqiyi.com
 1;106.38.219.21;cache.vip.qiyi.com
 1;106.38.219.36;cache.video.qiyi.com
+0;106.38.219.36;cache.video.iqiyi.com
 1;111.206.108.45;api.3g.tudou.com
 1;111.206.212.239;api.le.com
 1;112.253.22.134;www.yinyuetai.com
