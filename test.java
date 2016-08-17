@@ -88,3 +88,11 @@ antiserver.kuwo.cn
 121.46.19.91;
 121.46.19.92;
 183.129.129.154 app.bilibili.com
+
+
+
+1;101.227.131.153;rqd.uu.qq.com
+8080;101.227.130.106;oth.str.mdt.qq.com
+8080;101.226.76.166;oth.eve.mdt.qq.com
+1;101.227.169.200;shacc.music.qq.com
+0;14.18.245.250;szacc.music.qq.com
