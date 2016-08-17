@@ -96,3 +96,4 @@ antiserver.kuwo.cn
 8080;101.226.76.166;oth.eve.mdt.qq.com
 1;101.227.169.200;shacc.music.qq.com
 0;14.18.245.250;szacc.music.qq.com
+1;14.17.41.228;mi.gdt.qq.com
