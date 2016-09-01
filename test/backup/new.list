@@ -106,7 +106,7 @@
 1;203.205.151.227;y.qq.com
 2;203.205.150.17;qzs.qq.com
 1;203.205.151.100;ac.qq.com
-1;203.205.151.234;vv.video.qq.com
+2;203.205.151.234;vv.video.qq.com
 0;203.205.151.234;flvs.video.qq.com
 0;203.205.151.234;bkvv.video.qq.com
 0;203.205.151.234;h5vv.video.qq.com
@@ -144,7 +144,7 @@
 0;47.88.138.238;interface.bilibili.cn
 1;58.222.19.61;static.itv.letv.com
 0;58.222.19.61;static.api.sports.letv.com
-1;58.250.9.114;vv.play.aiseet.atianqi.com
+2;58.250.9.114;vv.play.aiseet.atianqi.com
 0;58.250.9.114;vv.play.ott.video.qq.com
 0;58.250.9.114;bkvv.play.ott.video.qq.com
 0;58.250.9.114;lives.l.aiseet.atianqi.com
@@ -158,7 +158,7 @@
 0;59.37.116.23;info.zb.qq.com
 1;59.37.96.188;pay.video.qq.com
 0;59.37.96.188;paybak.video.qq.com
-1;59.37.96.240;bkvv.play.aiseet.atianqi.com
+2;59.37.96.240;bkvv.play.aiseet.atianqi.com
 0;59.37.96.240;livep.l.aiseet.atianqi.com
 1;59.82.1.230;api.appsdk.soku.com
 1;59.82.1.82;sdk.m.youku.com
