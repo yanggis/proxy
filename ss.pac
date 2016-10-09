@@ -25,7 +25,7 @@ route 0.0.0.0/0
 #目前支持HTTP(CONNECT)和Shadowsocks(table加密)两种代理。必须。
 #可以设置多个代理，但是目前系统只会使用第一个。
 #需要用户名密码验证的代理服务器地址
-proxy http://username:password@hostname:port
+#proxy http://username:password@hostname:port
 #无需验证的代理服务器
 proxy http://222.169.41.179:3128
 proxy http://119.29.177.231:8080
