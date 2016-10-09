@@ -27,6 +27,7 @@
 0;103.7.31.188;proxymc.qq.com
 1;106.38.219.10;iface2.iqiyi.com
 1;106.38.219.21;cache.vip.qiyi.com
+0;106.38.219.21;cache.vip.ptqy.gitv.tv
 1;106.38.219.36;cache.video.qiyi.com
 0;106.38.219.36;cache.video.iqiyi.com
 1;111.206.108.45;api.3g.tudou.com
@@ -48,7 +49,6 @@
 1;119.188.108.241;lixian.vip.xunlei.com
 0;119.188.108.241;lixian.xunlei.com
 0;119.188.108.241;cloud.vip.xunlei.com
-1;106.38.219.21;cache.vip.ptqy.gitv.tv
 1;119.188.145.10;cache.m.ptqy.gitv.tv
 0;119.188.145.10;meta.video.ptqy.gitv.tv
 0;119.188.145.10;policy.video.ptqy.gitv.tv
