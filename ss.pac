@@ -43,8 +43,5 @@ proxy http://119.29.177.231:8080
 #TAG:proxy_domain
 #设置需要代理的域名。非必须。
 #proxy_domain ip.cn hot.vrs.sohu.com letv.com youtube.com
-chinatunnel	112.65.200.156
-chinatunnel	114.80.72.56
-chinatunnel	183.61.38.211
-chinatunnel	101.227.169.200
+
 #end of file
