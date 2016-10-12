@@ -27,7 +27,7 @@ route 0.0.0.0/0
 #需要用户名密码验证的代理服务器地址
 #proxy http://username:password@hostname:port
 #无需验证的代理服务器
-proxy http://175.30.202.110:3128
+proxy http://104.236.184.163:80
 proxy ss://aes-256-cfb:pass***123gis@123.206.7.16:8080
 #outside_china_use_proxy on
 #TAG:direct_domain
