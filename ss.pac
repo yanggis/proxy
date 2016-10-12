@@ -27,7 +27,7 @@ route 0.0.0.0/0
 #需要用户名密码验证的代理服务器地址
 #proxy http://username:password@hostname:port
 #无需验证的代理服务器
-proxy http://222.169.41.121:3128
+#proxy http://222.169.41.121:3128
 proxy http://119.29.177.231:8080
 #shadowsocks地址（目前method仅支持table）
 #proxy ss://method:password@hostname:port
