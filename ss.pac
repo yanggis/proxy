@@ -4,10 +4,10 @@
 #同一参数名称可以在多行出现，系统会将其值自动合并成一个数组。
 #TAG:session_name
 #设置VPN连接会话名称。默认值：无。非必须。
-session_name smartproxy
+session_name chinatunnel
 #TAG:welcome_info
 #设置VPN连接后的欢迎信息。默认值：无。非必须。
-welcome_info Welcome to smartproxy!
+welcome_info Welcome to chinatunnel!
 #TAG:ip
 #设置VPN的IP地址。默认值：10.8.0.2。非必须。
 ip 10.8.0.2
