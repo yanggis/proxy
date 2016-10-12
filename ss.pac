@@ -28,13 +28,7 @@ route 0.0.0.0/0
 #proxy http://username:password@hostname:port
 #无需验证的代理服务器
 proxy http://175.30.202.110:3128
-proxy http://119.29.177.231:8080
-#shadowsocks地址（目前method仅支持table）
-#proxy ss://method:password@hostname:port
-#Base64加密的shadowsocks地址（目前method仅支持table）
-#proxy ss://YmYtY2ZiOnRlc3RAMTkyLjE2OC4xMDAuMTo4ODg4
-#TAG:outside_china_use_proxy
-#设置国外网站是否走代理。默认值：on。非必须。
+proxy ss://aes-256-cfb:pass***123gis@123.206.7.16:8080
 #outside_china_use_proxy on
 #TAG:direct_domain
 #设置直连的域名。非必须。
