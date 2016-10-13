@@ -13,8 +13,8 @@ welcome_info Welcome to chinatunnel!
 ip 10.8.0.2
 #TAG:dns
 #设置VPN的DNS地址，设置后系统将使用该DNS，若不设置系统将使用原来的DNS。默认值：无。非必须。
-dns 104.236.184.163
-#dns 8.8.8.8
+dns 8.8.8.8
+dns 8.8.4.4
 #TAG:dns
 #DNS缓存时间，单位秒，用于防DNS污染。默认值：30。非必须。
 dns_ttl 30
