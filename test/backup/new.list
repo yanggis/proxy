@@ -4,6 +4,7 @@
 1;114.80.72.56;way.cp61.ott.cibntv.net
 1;60.28.173.86;play.api.cp61.ott.cibntv.net
 0;60.28.173.86;play.api.pptv.com
+0;60.28.173.86;web-play.pplive.cn
 1;183.61.38.211;api.unipay.qq.com
 8080;183.61.49.155;oth.str.mdt.qq.com
 8080;101.226.76.166;oth.eve.mdt.qq.com
@@ -164,7 +165,6 @@
 1;59.82.244.64;pl2.youku.com
 1;59.82.246.31;module.youku.com
 1;60.217.240.41;iplocation.geo.qiyi.com
-1;60.28.173.86;web-play.pplive.cn
 1;60.28.200.72;mobi.kuwo.cn
 1;61.131.55.91;live.pptv.com
 443;163.177.71.162;
