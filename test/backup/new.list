@@ -141,7 +141,7 @@
 1;43.250.15.45;cibn.api.3g.cp31.ott.cibntv.net
 1;43.250.15.50;api.mobile.youku.com
 1;45.112.212.31;api.3g.youku.com
-1;59.82.12.38;xl.api.3g.youku.com
+0;59.82.12.38;xl.api.3g.youku.com
 0;59.82.12.38;tv.api.3g.youku.com
 1;45.112.212.42;pay.tudou.com
 1;45.112.212.43;play.api.3g.youku.com
@@ -282,3 +282,4 @@
 443;140.205.163.80;
 443;140.205.160.82;
 443;140.205.34.39;
+1;59.82.12.38;
