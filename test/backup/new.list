@@ -132,9 +132,6 @@
 1;36.110.223.252;search.lekan.letv.com
 1;42.62.59.196;mobilefeedback.kugou.com
 1;43.250.12.28;tv.api.3g.tudou.com
-1;43.250.12.31;pl.youku.com
-1;59.82.12.42;list.youku.com
-1;106.11.45.6;i-play.mobile.youku.com
 1;43.250.12.57;www.soku.com
 1;43.250.12.72;pl2.cp31.ott.cibntv.net
 1;119.167.222.80;p.cp31.ott.cibntv.net
@@ -143,6 +140,14 @@
 1;45.112.212.31;api.3g.youku.com
 0;59.82.12.38;xl.api.3g.youku.com
 0;59.82.12.38;tv.api.3g.youku.com
+1;59.82.13.180;play-dxk.youku.com
+1;59.82.5.32;list.youku.com
+1;59.82.1.230;api.appsdk.soku.com
+1;59.82.1.82;sdk.m.youku.com
+1;59.82.244.64;pl2.youku.com
+1;59.82.246.31;module.youku.com
+1;43.250.12.31;pl.youku.com
+1;106.11.45.6;i-play.mobile.youku.com
 1;45.112.212.42;pay.tudou.com
 1;45.112.212.43;play.api.3g.youku.com
 1;45.112.212.45;play.youku.com
@@ -170,11 +175,6 @@
 0;59.37.96.188;paybak.video.qq.com
 2;59.37.96.240;bkvv.play.aiseet.atianqi.com
 0;59.37.96.240;livep.l.aiseet.atianqi.com
-1;59.82.1.230;api.appsdk.soku.com
-1;59.82.1.82;sdk.m.youku.com
-1;59.82.12.31;play-dxk.youku.com
-1;59.82.244.64;pl2.youku.com
-1;59.82.246.31;module.youku.com
 1;60.217.240.41;iplocation.geo.qiyi.com
 1;60.28.200.72;mobi.kuwo.cn
 1;61.131.55.91;live.pptv.com
