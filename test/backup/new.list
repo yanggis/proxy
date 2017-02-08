@@ -22,11 +22,8 @@
 1;103.231.71.6;ip2.kugou.com
 1;103.243.94.139;www.kugou.com
 1;103.7.30.64;graph.qq.com
-1;103.7.31.186;proxy.music.qq.com
-0;103.7.31.186;acc.music.qq.com
+1;103.7.31.186;acc.music.qq.com
 1;103.7.31.188;s.plcloud.music.qq.com
-0;103.7.31.188;3g.music.qq.com
-0;103.7.31.188;proxymc.qq.com
 2;106.38.219.10;iface2.iqiyi.com
 1;106.38.219.21;cache.vip.qiyi.com
 0;106.38.219.21;cache.vip.ptqy.gitv.tv
