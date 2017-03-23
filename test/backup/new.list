@@ -68,6 +68,7 @@
 1;123.126.98.150;www.tudou.com
 1;123.150.175.180;www.kuwo.cn
 1;123.150.175.181;antiserver.kuwo.cn
+0;123.150.175.181;ipcheck.kuwo.cn
 1;123.59.122.228;api.mob.app.letv.com
 1;123.59.21.170;mobile.api.hunantv.com
 1;123.59.21.237;live.api.hunantv.com
