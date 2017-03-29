@@ -9,6 +9,8 @@
 1;183.134.11.86;v.cctv.com
 8000;119.6.239.247;cctv5.vtime.cntv.wscdns.com
 1;119.6.239.247;cctv6.vtime.cntv.wscdns.com
+0;119.6.239.247;cctv5.vtime.cntv.wscdns.net
+0;119.6.239.247;cctv6.vtime.cntv.wscdns.com
 0;119.6.239.247;cctv5plus.vtime.cntv.wscdns.com
 1;123.59.21.139;ott.liveapi.mgtv.com
 443;211.151.82.226;api.passport.pptv.com
