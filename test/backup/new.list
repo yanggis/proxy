@@ -4,11 +4,11 @@
 0;115.182.216.18;vdn.apps.cntv.cn
 1;220.243.228.72;api.cntv.cn
 1;184.86.250.41;cbox.cntv.cn
-1;119.6.239.247;cctv1.vtime.cntv.cloudcdn.net
-0;119.6.239.247;cctv5.vtime.cntv.cloudcdn.net
-0;119.6.239.247;cctv6.vtime.cntv.cloudcdn.net
-0;119.6.239.247;cctv5plus.vtime.cntv.cloudcdn.net
-0;119.6.239.247;cctv13.vtime.cntv.cloudcdn.net
+1;119.6.239.247;cctv1.vtime.cntv.wscdns.net
+0;119.6.239.247;cctv5.vtime.cntv.wscdns.net
+0;119.6.239.247;cctv6.vtime.cntv.wscdns.net
+0;119.6.239.247;cctv5plus.vtime.cntv.wscdns.net
+0;119.6.239.247;cctv13.vtime.cntv.wscdns.net
 1;123.59.21.139;ott.liveapi.mgtv.com
 443;211.151.82.226;api.passport.pptv.com
 1;112.65.200.156;way.pptv.com
