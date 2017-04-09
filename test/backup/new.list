@@ -11,9 +11,6 @@
 8000;183.47.234.62;cctv5.live.cntv.dnion.com
 0;119.6.239.247;cctv5plus.vtime.cntv.wscdns.com
 1;54.222.136.76;ott.liveapi.mgtv.com
-1;54.222.185.14;ott.liveapi.mgtv.com
-1;54.222.149.51;ott.liveapi.mgtv.com
-1;54.223.169.74;ott.liveapi.mgtv.com
 443;211.151.82.226;api.passport.pptv.com
 1;112.65.200.156;way.pptv.com
 1;114.80.72.56;way.cp61.ott.cibntv.net
@@ -272,3 +269,7 @@
 443;140.205.163.80;
 443;140.205.160.82;
 443;140.205.34.39;
+1;54.222.185.14;
+1;54.222.149.51;
+1;54.223.169.74;
+1;54.223.44.60;
