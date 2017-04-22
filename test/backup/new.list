@@ -117,11 +117,11 @@
 1;220.181.90.67;hot.vrs.cp45.ott.cibntv.net
 0;220.181.90.67;api.ott.tv.cp45.ott.cibntv.net
 0;220.181.90.67;qc.hd.cp45.ott.cibntv.net
-2;223.252.199.7;ipservice.163.com
+1;223.252.199.7;ipservice.163.com
 0;223.252.199.7;music.163.com
-2;116.211.118.96;music.163.com
-2;59.111.160.195;music.163.com
-2;59.111.160.197;music.163.com
+1;116.211.118.96;music.163.com
+1;59.111.160.195;music.163.com
+1;59.111.160.197;music.163.com
 1;103.251.128.86;music.163.com
 1;117.177.241.90;ip.ws.126.net
 1;36.110.223.252;search.lekan.letv.com
