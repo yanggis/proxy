@@ -20,9 +20,8 @@ function FindProxyForURL(url, host) {
     "wiley.com",
     "ip.cn"
 );
-    
- 
-  for(var i=0; i<proxylist.length; i++) {
+
+ for(var i=0; i<proxylist.length; i++) {
     var value = proxylist[i];
     if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
    }
