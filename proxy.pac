@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
-    var proxyserver = "166.111.77.32:3128";
+    var proxyserver = "49.140.195.93:8998";
     //
     //  Here's a list of hosts to connect via the PROXY server
     //
