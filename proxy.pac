@@ -14,6 +14,7 @@ function FindProxyForURL(url, host) {
     "journals.sagepub.com",
     "journals.cambridge.org",
     "cnki.net",
+    "onlinelibrary.wiley.com",
     "ip.cn"
 );
     
