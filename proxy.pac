@@ -5,18 +5,18 @@ function FindProxyForURL(url, host) {
     //  Here's a list of hosts to connect via the PROXY server
     //
     var proxylist = new Array(
-    "nature.com",
-    "springer.com",
-    "webofscience.com",
-    "sciencemag.org",
-    "ieeexplore.ieee.org",
-    "sciencedirect.com",
-    "elsevier.com",
-    "journals.sagepub.com",
-    "journals.cambridge.org",
-    "cnki.net",
-    "wiley.com",
-    "ip.cn"
+    "*.nature.com/*",
+    "*.springer.com/*",
+    "*.webofscience.com/*",
+    "*.sciencemag.org/*",
+    "*.ieeexplore.ieee.org/*",
+    "*.sciencedirect.com/*",
+    "*.elsevier.com/*",
+    "*.journals.sagepub.com/*",
+    "*.journals.cambridge.org/*",
+    "*.cnki.net/*",
+    "*.wiley.com/*",
+    "*.ip.cn/*"
 );
     
 //var reglist = new Array(
@@ -24,11 +24,14 @@ function FindProxyForURL(url, host) {
 //     "*123.125.123.*" //s
 //);
   
+//  for(var i=0; i<proxylist.length; i++) {
+//    var value = proxylist[i];
+//    if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
+//   }
   for(var i=0; i<proxylist.length; i++) {
-    var value = proxylist[i];
-    if ( localHostOrDomainIs(host, value) ) { return "PROXY "+proxyserver;}
-   }
-  
+      var value = proxylist[i];
+      if (shExpMatch(url, value)) {return "PROXY "+proxyserver;}
+  }
  //for(var i=0; i<reglist.length; i++) {
  // var value = reglist[i];
  //  if ( shExpMatch(url, value) ) { return "PROXY "+proxyserver;}
