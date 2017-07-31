@@ -13,6 +13,7 @@ function FindProxyForURL(url, host) {
     "sciencedirect.com",
     "journals.sagepub.com",
     "journals.cambridge.org",
+    "elsevier.com",
     "cnki.net",
     "wiley.com",
     "ip.cn"
