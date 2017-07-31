@@ -5,18 +5,18 @@ function FindProxyForURL(url, host) {
     //  Here's a list of hosts to connect via the PROXY server
     //
     var proxylist = new Array(
-    "nature.com",
+    "www.nature.com",
     "springer.com",
     "webofscience.com",
     "sciencemag.org",
     "ieeexplore.ieee.org",
-    "sciencedirect.com",
+    "www.sciencedirect.com",
     "acw.sciencedirect.com",
     "acw.elsevier.com",
     "journals.sagepub.com",
     "journals.cambridge.org",
-    "cnki.net",
-     "kns.cnki.net",
+    "www.cnki.net",
+    "kns.cnki.net",
     "wiley.com",
     "ip.cn"
 );
