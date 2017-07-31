@@ -47,17 +47,6 @@ var reglist = new Array(
   var value = reglist[i];
    if ( shExpMatch(url, value) ) { return "PROXY "+proxyserver;}
   }
-
-
-//youku
-if (shExpMatch(url, "*youku.com*") 
-   && (!shExpMatch(url, "*static.youku.com*"))
-   && (!shExpMatch(url, "*static.atm.youku.com*"))
-   && (!shExpMatch(url, "*p.l.youku.com*"))
-   && (!shExpMatch(url, "*v.l.youku.com*"))
-   && (!shExpMatch(url, "*html.atm.youku.com*"))
-   && (!shExpMatch(url, "*hz.youku.com*"))
-   ) {return "PROXY "+proxyserver;}
     
 return "DIRECT";
 }
