@@ -7,11 +7,11 @@ function FindProxyForURL(url, host) {
     //
     var proxylist1 = new Array(
     "www.nature.com",
+    "link.springer.com",
     "ip.cn"
 );
 
     var proxylist2 = new Array(
-    "springer.com",
     "webofscience.com",
     "sciencemag.org",
     "ieeexplore.ieee.org",
