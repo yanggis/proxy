@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
     var tsinghuaServer = "166.111.77.32:3128";
-    var jidaServer = "166.111.77.32:80";
+    var jidaServer = "proxy.yanggis.com:8188";
     //
     //  Here's a list of hosts to connect via the PROXY server
     //
