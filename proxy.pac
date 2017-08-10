@@ -22,7 +22,8 @@ function FindProxyForURL(url, host) {
     "journals.cambridge.org",
     "www.cnki.net",
     "kns.cnki.net",
-     "navi.cnki.net",
+    "navi.cnki.net",
+    "docdownload.cnki.net",
     "wiley.com"
 );
     
