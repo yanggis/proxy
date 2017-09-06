@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
     var proxylist1 = new Array(
     "www.nature.com",
     "link.springer.com",
+    "onlinelibrary.wiley.com",
     "ip.cn"
 );
 
@@ -23,8 +24,7 @@ function FindProxyForURL(url, host) {
     "www.cnki.net",
     "kns.cnki.net",
     "navi.cnki.net",
-    "docdownload.cnki.net",
-    "wiley.com"
+    "docdownload.cnki.net"
 );
     
  for(var i=0; i<proxylist1.length; i++) {
