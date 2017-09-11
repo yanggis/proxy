@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
     "www.nature.com",
     "link.springer.com",
     "onlinelibrary.wiley.com",
-    "http://www.springer.com",
+    "www.springer.com",
     "ip.cn"
 );
 
