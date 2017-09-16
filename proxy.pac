@@ -2,7 +2,8 @@ function FindProxyForURL(url, host) {
     // Your proxy server name and port
     var tsinghuaServer = "203.91.121.76:3128";
     var guangdaServer = "proxy.yanggis.com:8188";
-    //202.38.92.100:3128 zkd
+    //159.226.249.93:8080 zky
+    //166.111.72.242:3128 qh
     //  Here's a list of hosts to connect via the PROXY server
     //
     var proxylist1 = new Array(
