@@ -28,7 +28,9 @@ function FindProxyForURL(url, host) {
     "navi.cnki.net",
     "docdownload.cnki.net",
     "my.gzhu.edu.cn",
-    "www.gzhu.edu.cn"
+    "www.gzhu.edu.cn",
+    "cas.gzhu.edu.cn"
+        
 );
     
  for(var i=0; i<proxylist1.length; i++) {
