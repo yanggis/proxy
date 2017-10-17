@@ -30,7 +30,6 @@ function FindProxyForURL(url, host) {
     "my.gzhu.edu.cn",
     "www.gzhu.edu.cn",
     "cas.gzhu.edu.cn"
-        
 );
     
  for(var i=0; i<proxylist1.length; i++) {
