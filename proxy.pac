@@ -39,7 +39,7 @@ function FindProxyForURL(url, host) {
    
  for(var i=0; i<proxylist2.length; i++) {
     var value = proxylist2[i];
-    if ( localHostOrDomainIs(host, value) ) { return "PROXY "+guangdaServer;}
+    if ( localHostOrDomainIs(host, value) ) { return "PROXY "+tsinghuaServer;}
    }
     
 return "DIRECT";
