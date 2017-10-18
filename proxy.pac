@@ -11,10 +11,6 @@ function FindProxyForURL(url, host) {
     "link.springer.com",
     "onlinelibrary.wiley.com",
     "www.springer.com",
-    "www.cnki.net",
-    "kns.cnki.net",
-    "navi.cnki.net",
-    "docdownload.cnki.net",
     "ip.cn"
 );
 
@@ -27,6 +23,10 @@ function FindProxyForURL(url, host) {
     "acw.elsevier.com",
     "journals.sagepub.com",
     "journals.cambridge.org",
+     "www.cnki.net",
+    "kns.cnki.net",
+    "navi.cnki.net",
+    "docdownload.cnki.net",
     "my.gzhu.edu.cn",
     "www.gzhu.edu.cn",
     "cas.gzhu.edu.cn"
