@@ -27,6 +27,7 @@ function FindProxyForURL(url, host) {
     "kns.cnki.net",
     "navi.cnki.net",
      "pdf.d.cnki.net",
+     "caj.d.cnki.net",
     "docdownload.cnki.net",
     "my.gzhu.edu.cn",
     "www.gzhu.edu.cn",
