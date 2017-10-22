@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
-    var tsinghuaServer = "166.111.77.32:3128";
+    var tsinghuaServer = "202.38.92.100:3128";//"166.111.77.32:3128";
     var guangdaServer = "47.74.134.79:8188";
     //159.226.249.93:8080 zky
     // qh
