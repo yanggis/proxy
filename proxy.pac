@@ -10,6 +10,7 @@ function FindProxyForURL(url, host) {
     "www.nature.com",
     "link.springer.com",
     "onlinelibrary.wiley.com",
+    "ieeexplore.ieee.org",
     "www.springer.com",
     "ip.cn"
 );
