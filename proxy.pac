@@ -13,12 +13,12 @@ function FindProxyForURL(url, host) {
     "www.nature.com",
     //"link.springer.com",
     //"onlinelibrary.wiley.com",
-    "ieeexplore.ieee.org",
     //"www.springer.com",
     "ip.cn"
 );
 
     var proxylist2 = new Array(
+    "ieeexplore.ieee.org",
     "webofscience.com",
     "sciencemag.org",
     "ieeexplore.ieee.org",
