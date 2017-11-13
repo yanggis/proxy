@@ -2,16 +2,19 @@ function FindProxyForURL(url, host) {
     // Your proxy server name and port
     var tsinghuaServer = "166.111.77.32:3128"; //"202.38.92.100:3128";
     var guangdaServer = "47.74.134.79:8188";
+    var wudaServer = "202.114.114.34:3129";
     //159.226.249.93:8080 zky
-    // qh
-    //  Here's a list of hosts to connect via the PROXY server
-    //
-    var proxylist1 = new Array(
-    "www.nature.com",
+    var proxylist0 = new Array(
     "link.springer.com",
     "onlinelibrary.wiley.com",
+    "www.springer.com"
+);
+    var proxylist1 = new Array(
+    "www.nature.com",
+    //"link.springer.com",
+    //"onlinelibrary.wiley.com",
     "ieeexplore.ieee.org",
-    "www.springer.com",
+    //"www.springer.com",
     "ip.cn"
 );
 
@@ -36,6 +39,10 @@ function FindProxyForURL(url, host) {
     //"cas.gzhu.edu.cn",
     //"newoa.gzhu.edu.cn"
 );
+  for(var i=0; i<proxylist0.length; i++) {
+    var value = proxylist0[i];
+    if ( localHostOrDomainIs(host, value) ) { return "PROXY "+wudaServer;}
+   }
     
  for(var i=0; i<proxylist1.length; i++) {
     var value = proxylist1[i];
