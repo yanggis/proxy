@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
     var tsinghuaServer = "166.111.77.32:3128"; //"202.38.92.100:3128";
     var guangdaServer = "47.74.134.79:8188";
     var wudaServer = "202.114.114.34:3129";
-    //159.226.249.93:8080 zky
+    //
     var proxylist0 = new Array(
     "link.springer.com",
     "onlinelibrary.wiley.com",
