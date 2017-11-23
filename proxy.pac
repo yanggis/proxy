@@ -34,10 +34,10 @@ function FindProxyForURL(url, host) {
      "pdf.d.cnki.net",
      "caj.d.cnki.net",
     "docdownload.cnki.net"
-    //"my.gzhu.edu.cn",
+    "my.gzhu.edu.cn",
     //"www.gzhu.edu.cn",
-    //"cas.gzhu.edu.cn",
-    //"newoa.gzhu.edu.cn"
+    "cas.gzhu.edu.cn",
+    "newoa.gzhu.edu.cn"
 );
   for(var i=0; i<proxylist0.length; i++) {
     var value = proxylist0[i];
