@@ -33,6 +33,7 @@ function FindProxyForURL(url, host) {
      "nvsm.cnki.net",
      "pdf.d.cnki.net",
      "caj.d.cnki.net",
+      "login.cnki.net",
     "docdownload.cnki.net"
     "my.gzhu.edu.cn",
     //"www.gzhu.edu.cn",
