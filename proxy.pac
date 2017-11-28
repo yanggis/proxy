@@ -37,7 +37,8 @@ function FindProxyForURL(url, host) {
     "docdownload.cnki.net",
     "my.gzhu.edu.cn",
     "cas.gzhu.edu.cn",
-    "newoa.gzhu.edu.cn"
+    "newoa.gzhu.edu.cn",
+     "202.192.18.21"
 );
   for(var i=0; i<proxylist0.length; i++) {
     var value = proxylist0[i];
