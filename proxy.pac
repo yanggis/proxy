@@ -38,7 +38,13 @@ function FindProxyForURL(url, host) {
     "my.gzhu.edu.cn",
     "cas.gzhu.edu.cn",
     "newoa.gzhu.edu.cn",
-     "202.192.18.21"
+     "202.192.18.21",
+     "202.192.18.192",
+     "202.192.18.158",
+      "202.192.18.162",
+      "202.192.18.53",
+      "202.192.18.180",
+      "202.192.18.175"
 );
   for(var i=0; i<proxylist0.length; i++) {
     var value = proxylist0[i];
