@@ -6,7 +6,6 @@ function FindProxyForURL(url, host) {
     //
     var proxylist0 = new Array(
     "link.springer.com",
-    "onlinelibrary.wiley.com",
     "www.springer.com"
 );
     var proxylist1 = new Array(
@@ -18,6 +17,7 @@ function FindProxyForURL(url, host) {
 );
 
     var proxylist2 = new Array(
+    "onlinelibrary.wiley.com",
     "ieeexplore.ieee.org",
     "webofscience.com",
     "sciencemag.org",
