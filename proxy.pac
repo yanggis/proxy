@@ -9,10 +9,10 @@ function FindProxyForURL(url, host) {
     "www.springer.com"
 );
     var proxylist1 = new Array(
-    "www.nature.com",
+    //"www.nature.com",
     //"link.springer.com",
     "www.tandfonline.com",
-    //"www.springer.com",
+    "verify.nature.com",
     "ip.cn"
 );
 
