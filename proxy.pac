@@ -44,6 +44,7 @@ function FindProxyForURL(url, host) {
       "202.192.18.162",
       "202.192.18.53",
       "202.192.18.180",
+      "202.192.18.178",
       "202.192.18.175"
 );
   for(var i=0; i<proxylist0.length; i++) {
