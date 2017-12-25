@@ -13,12 +13,15 @@ function FindProxyForURL(url, host) {
     var proxylist1 = new Array(
     //"www.nature.com",
     //"link.springer.com",
-    "www.tandfonline.com",
-    "verify.nature.com",
+    //"www.tandfonline.com",
+    //"verify.nature.com",
+    "www.yggyy3.com",
     "ip.cn"
 );
 
     var proxylist2 = new Array(
+     "www.tandfonline.com",
+    "verify.nature.com",
      "link.springer.com",
     "www.springer.com",
     "onlinelibrary.wiley.com",
