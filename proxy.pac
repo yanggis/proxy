@@ -5,8 +5,10 @@ function FindProxyForURL(url, host) {
     var wudaServer = "202.114.114.34:3129";
     //
     var proxylist0 = new Array(
-    "link.springer.com",
-    "www.springer.com"
+    //"link.springer.com",
+    //"www.springer.com"
+     "www.yggyy.com",
+      "www.yggyy2.com"
 );
     var proxylist1 = new Array(
     //"www.nature.com",
@@ -17,6 +19,8 @@ function FindProxyForURL(url, host) {
 );
 
     var proxylist2 = new Array(
+     "link.springer.com",
+    "www.springer.com",
     "onlinelibrary.wiley.com",
     "ieeexplore.ieee.org",
     "webofscience.com",
