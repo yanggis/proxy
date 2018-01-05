@@ -35,7 +35,7 @@ function FindProxyForURL(url, host) {
     "journals.sagepub.com",
     "journals.cambridge.org",
      "www.cnki.net",
-    "kns.cnki.net",
+    //"kns.cnki.net",
     "navi.cnki.net",
      "nvsm.cnki.net",
      "pdf.d.cnki.net",
