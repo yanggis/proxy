@@ -1,241 +1,61 @@
 #!/bin/bash
-# $Id: supernoded.init,v 1.9 2009/10/23 12:34:56
-# n2n supernode startup script.
-#
-# chkconfig:    345 96 26
-# processname:  supernode
-# pidfile:      /var/run/n2n-supernode.pid
-#
-# short-description: Provides client-to-client VPN access via Internet
-# description: This is startup script for n2n supernode,
-#   n2n edge + supernode provide internet connection for vpn peers
-#
-# SEE:
-#   for more options n2n 'man edge' and 'man supernode'
-#
-# NOTE:
-#   Option to enter 'debug' as second var: e.g 'supernode start debug'
-#   Using grep -w switch searches for whole word reduces ambiguity
-#   Comment in/out the 'echo' stuff depending if thigs work as expected
-#   Config files located/named in: /etc/n2n/supernode-your.example.com
-#   Assumes CentOS linux init scripts located in /etc/rc.d/init.d/
-#
-# Created: FOOFORCE RB 2009-10-24
-# License GPL: free to copy, improve and use.
-# http://fuji.unipi.it/pipermail/n2n/2009-October/000300.html
-# ===============================================================
+### BEGIN INIT INFO
+# Provides:        supernode
+# Required-Start:  $network $remote_fs $syslog
+# Required-Stop:   $network $remote_fs $syslog
+# Default-Start:   2 3 4 5
+# Default-Stop:    0 1 6
+# Short-Description: Start n2n VPN
+### END INIT INFO
 
-# ==== main init script variables ===============================
-# Make sure you include path where 'supernode' + sh + tools are installed..
-# PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin" 
-PATH="/sbin:/bin:/usr/sbin:/usr/bin" 
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
 
-# The name + path to the program/daemon...
-NAME="supernode" 
-DAEMON="/usr/sbin/${NAME}" 
+. /lib/lsb/init-functions
 
-# Modify $NAME to filter on 'grep -w [s]supernode' - faster than 'grep -v grep'...
-GREPNAME=$(echo "[s]${NAME#s}")
+NAME=supernode
+DAEMON=/usr/bin/supernode
 
-# Enable some simple debug messages when running this script...
-if [[ "${2}" == "debug" ]]; then
-    echo "DEBUG: ${GREPNAME}" 
+test -x $DAEMON || exit 5
+
+if [ -r /etc/n2n/$NAME ]; then
+	. /etc/n2n/$NAME
 fi
 
-PIDFILE="/var/run/supernode.pid" 
-LOGFILE="/var/log/n2n-${NAME}.log" 
-STAMP=$(/bin/date +"%d/%b/%Y %H:%M:%S")
-
-# Initialise configfile variable to empty value...
-CONFIGDIR="/etc/n2n" 
-
-# Initialise configfile variable to empty value...
-CONFIGFILE="" 
-
-CONFIGFILE="/etc/n2n/supernode" 
-
-
-if [[ -f "${CONFIGFILE}" ]]; then
-    # Get values from local configuration file...
-    if [[ "${2}" ==  "debug" ]]; then
-        echo " Found config file: ${CONFIGFILE}" 
-    fi
-    . ${CONFIGFILE}
-else
-    echo "ERROR: Missing config file ${CONFIGFILE}" 
-    exit 1
-fi
-
-# See if pid file exists and get pid number...
-if [[ -f "${PIDFILE}" ]]; then
-    CURPID=$(cat ${PIDFILE})
-fi
-
-# Quit if we can't find application...
-test -f ${DAEMON} || exit 0
-
-set -e
-
-# Set any value to enable this script...
-# N2N_RUN=1
-#
-# test -n "${N2N_RUN}" || exit 0
-
-# Optionaly change into n2n config directory...
-if [[ -d "${CONFIGDIR}" ]]; then
-    cd ${CONFIGDIR}
-fi
-
-if [ "${N2N_PORT}" == "" ]; then
-    N2N_PORT="1304" 
-    echo "No port specified in ${CONFIGFILE} - using  default port: ${N2N_PORT}" 
-fi
-
-case "${1}" in
-    start)
-        # echo " ${NAME} ${1} process is ${0} on pid: ${$})..." 
-        echo "${STAMP} start n2n /etc/rc.d/init.d/${NAME}" >> ${LOGFILE}
-
-        if [[ -n "${CURPID}" ]]; then
-            echo " A PID:${CURPID} already exists for ${0}:" 
-            echo " To re-start with current config settings, run '$0 stop' then '$0 start' ..." 
-        else
-        if [ -d /var/lock/subsys ] ; then
-            touch /var/lock/subsys/${NAME};
-        fi
-
-            # ====================================================
-            # All variables read from ${CONFIGFILE}...
-            # If variable value not empty then add command-line switch to variable...
-            if [[ -n "${N2N_PORT}" ]]; then
-                N2N_PORT="-l ${N2N_PORT}";
-            fi
-
-            # next line for debug:
-            if [[ "${2}" == "debug" ]]; then
-                echo " DEBUG: ${DAEMON} ${N2N_PORT} ${N2N_OPTIONS}" 
-            fi
-
-            # Execute the command + switches + values sources from config file...
-            echo -n $"Starting $NAME: " 
-            ${DAEMON} ${N2N_PORT} ${N2N_OPTIONS} >> ${LOGFILE} &
-            RETVAL=$?
-
-            [ $RETVAL -eq 0 ] && echo_success
-            [ $RETVAL -ne 0 ] && echo_failure
-            echo
-
-            # =================================================
-            if [[ "${2}" ==  "debug" ]]; then
-                echo " NOTICE: Creating new ${NAME} pidfile - deleting old ${CURPID}..." 
-            fi
-
-            rm -f ${PIDFILE}
-            touch ${PIDFILE}
-
-            for PID in $(ps ax | grep -w "${GREPNAME}" | grep -v "(restart|stop|start)" | awk '{ print $1 }'); do
-                if [[ "${2}" ==  "debug" ]]; then
-                    echo " Saving into pidfile - new pid: ${PID}" 
-                fi
-                echo ${PID} >> ${PIDFILE}
-            done
-        fi
-        ;;
-    stop)
-        # echo " DEBUG: Searching for at least one live process id..." 
-        PID=$(ps ax | grep -w "${GREPNAME}" | grep -v "(restart|stop|start)" | awk '{ print $1 }')
-
-        if [[ "${2}" == "debug" ]]; then
-            echo " This ${NAME} ${1} init query ${0} is running on pid: ${$}) for ${PID}..." 
-        fi
-
-        # echo " ${NAME} ${1} process is ${0} on pid: ${$})..." 
-        echo "${STAMP} stop /etc/rc.d/init.d/${NAME}" >> ${LOGFILE}
-
-        # echo "  NOTICE: Kill name:${NAME} pid:${pid} before stopping..." 
-        # kill -9 $(cat /var/run/${NAME}_pid) && rm /var/run/${NAME}_pid
-
-        # If a pid value found in file or in process id, then kill it...
-        if [[ -n "${PID}" ]]; then
-            echo -n  $"Stopping ${NAME}: " 
-            # kill -9 $(cat /var/run/${NAME}.pid) && rm /var/run/${NAME}.pid
-            kill ${PID}
-            RETVAL=$?
-            sleep 4s
-            rm -f ${PIDFILE}
-            if [ $RETVAL -eq 0 ] ; then
-                echo_success
-                echo
-            else
-                echo_failure
-                echo
-            fi
-        else
-            # Else assume stale pid...
-            if [[ "${2}" == "debug" ]]; then
-                echo " NOTICE: No current active process ${PID}..." 
-            fi
-
-            if [[ -f "${PIDFILE}" ]]; then
-                rm -f "${PIDFILE}" 
-            fi
-        fi
-
-        # Indiscriminate pid killer...
-        # for PID in $(ps ax | grep -w ${NAME} | grep -v stop | awk '{ print $1 }'); do
-        #    echo " Killing currently active ${NAME} pid(s): ${PID}" 
-        #    # kill -HUP $PID
-        #    kill ${PID}
-        # done
-
-        if [ -f /var/lock/subsys/${NAME} ]; then
-            if [[ "${2}" ==  "debug" ]]; then
-                echo " Removing stale lock..." 
-            fi
-            rm -f /var/lock/subsys/${NAME}
-        fi
-
-        if [ -f "${PIDFILE}" ]; then
-            echo " Removing stale pidfile..." 
-            rm -f ${PIDFILE}
-        fi
-        ;;
-    restart)
-        echo "* Re-start ${NAME}..." 
-        ${0} stop ${2}
-
-        # Not a race...
-        sleep 4s
-
-        ${0} start ${2}
-        ;;
-    status)
-        # status ${NAME}
-
-        if [[ "${2}" == "debug" ]]; then
-            echo " This init script ${NAME} ${1} query ${0} is running on pid: ${$})..." 
-        fi
-
-        PID=$(ps ax | grep -w "${GREPNAME}" | grep -v status | awk '{ print $1 }')
-
-        # If at least one active session then find all...
-        if [[ -n "${PID}" ]]; then
-            for PID in $(ps ax | grep -w "${GREPNAME}" | grep -v status | awk '{ print $1 }'); do
-                if [[ -n "${PID}" ]]; then
-                    echo "${NAME} (pid ${PID}) is running..." 
-                else
-                    echo "${NAME} is stopped" 
-                fi
-            done
-        else
-            echo "${NAME} is stopped" 
-        fi
-        ;;
-    *)
-        echo " Usage: ${0} {start|stop|status|restart|any debug}" >&2
-        exit 1
-        ;;
+case $1 in
+	start)
+		log_daemon_msg "Starting N2N Vpn" "n2n"
+  		start-stop-daemon --start --quiet --exec $DAEMON --startas $DAEMON -- $N2NOPTS
+		status=$?
+		log_end_msg $status
+  		;;
+	stop)
+		log_daemon_msg "Stopping N2N vpn" "n2n"
+  		start-stop-daemon --stop --quiet --exec $DAEMON
+		log_end_msg $?
+		rm -f $PIDFILE
+  		;;
+	restart|force-reload)
+		$0 stop && sleep 2 && $0 start
+  		;;
+	try-restart)
+		if $0 status >/dev/null; then
+			$0 restart
+		else
+			exit 0
+		fi
+		;;
+	status)
+		pidofproc -p $PIDFILE $DAEMON >/dev/null
+		status=$?
+		if [ $status -eq 0 ]; then
+			log_success_msg "N2N vpn is running."
+		else
+			log_failure_msg "N2N vpn is not running."
+		fi
+		exit $status
+		;;
+	*)
+		echo "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+		exit 2
+		;;
 esac
-exit 0
-
-
