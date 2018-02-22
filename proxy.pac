@@ -1,20 +1,14 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
-    var tsinghuaServer = "166.111.77.32:3128"; //"202.38.92.100:3128";
+    var tsinghuaServer = "166.111.77.32:3128"; 
     var guangdaServer = "47.74.134.79:8188";
     var wudaServer = "202.114.114.34:3129";
     //
     var proxylist0 = new Array(
-    //"link.springer.com",
-    //"www.springer.com"
      "www.yggyy.com",
       "www.yggyy2.com"
 );
     var proxylist1 = new Array(
-    //"www.nature.com",
-    //"link.springer.com",
-    //"www.tandfonline.com",
-    //"verify.nature.com",
     "www.yggyy3.com",
     "ip.cn"
 );
