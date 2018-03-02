@@ -38,7 +38,7 @@ function FindProxyForURL(url, host) {
     "docdownload.cnki.net",
     "my.gzhu.edu.cn",
     "cas.gzhu.edu.cn",
-    "newoa.gzhu.edu.cn",
+    //"newoa.gzhu.edu.cn",
      "202.192.18.21",
      "202.192.18.192",
      "202.192.18.158",
