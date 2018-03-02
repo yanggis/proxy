@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
     var tsinghuaServer = "166.111.77.32:3128"; 
-    var guangdaServer = "47.74.134.79:8188";
+    var guangdaServer = "socks 47.74.134.79:8188";
     var wudaServer = "202.114.114.34:3129";
     //
     var proxylist0 = new Array(
