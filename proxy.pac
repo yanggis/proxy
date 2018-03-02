@@ -10,10 +10,11 @@ function FindProxyForURL(url, host) {
 );
     var proxylist1 = new Array(
     "www.yggyy3.com",
-    "ip.cn"
+    "ip123.cn"
 );
 
     var proxylist2 = new Array(
+     "ip.cn",
      "www.tandfonline.com",
     "verify.nature.com",
      "link.springer.com",
