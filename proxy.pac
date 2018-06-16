@@ -15,7 +15,6 @@ function FindProxyForURL(url, host) {
 
     var proxylist2 = new Array(
      "ip.cn",
-     "dmd-fifa-native-major.youku.com",
      "www.tandfonline.com",
     "verify.nature.com",
      "link.springer.com",
