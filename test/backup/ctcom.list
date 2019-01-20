@@ -33,7 +33,7 @@
 1;59.111.0.76;block.music.163.com
 1;14.18.240.76;pv.sohu.com
 1;121.51.0.163;tv.ott.video.qq.com
-1;182.254.106.117;tv.ott.video.qq.com
+0;182.254.106.117;tv.ott.video.qq.com
 1;115.182.216.18;vdn.live.cntv.cn
 0;115.182.216.18;vdn.apps.cntv.cn
 1;115.182.35.88;gridsum-vd.cntv.cn
@@ -88,7 +88,7 @@
 2;183.3.225.41;tv.aiseet.atianqi.com
 2;183.232.95.217;tv.aiseet.atianqi.com
 2;58.251.106.180;tv.aiseet.atianqi.com
-443;182.254.106.117;tv.aiseet.atianqi.com
+2;182.254.106.117;tv.aiseet.atianqi.com
 2;183.3.226.119;u.y.qq.com
 1;60.28.200.73;nmobi.kuwo.cn
 1;54.223.94.228;pcweb.api.mgtv.com
