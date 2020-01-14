@@ -377,6 +377,7 @@
 1;60.217.240.41;iplocation.geo.qiyi.com
 1;60.28.200.72;mobi.kuwo.cn
 1;61.131.55.91;live.pptv.com
+2;183.232.41.3;api.cp33.ott.cibntv.net
 2;218.92.152.5;api.cp33.ott.cibntv.net
 2;218.92.152.7;api.cp33.ott.cibntv.net
 2;218.92.152.8;api.cp33.ott.cibntv.net
@@ -393,7 +394,6 @@
 2;116.207.130.94;api.cp33.ott.cibntv.net
 2;116.207.130.99;api.cp33.ott.cibntv.net
 2;182.254.4.180;api.cp33.ott.cibntv.net
-2;183.232.41.3;api.cp33.ott.cibntv.net
 14000;111.30.159.178;
 14000;121.51.162.11;
 8080;183.57.48.33;
