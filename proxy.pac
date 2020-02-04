@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
     // Your proxy server name and port
     var tsinghuaServer = "166.111.77.32:3128"; 
-    var guangdaServer = "www.yanggis.com:8398; DIRECT";
+    var guangdaServer = "www.yanggis.com:8188; DIRECT";
     var wudaServer = "202.114.114.34:3129";
     //
     var proxylist0 = new Array(
