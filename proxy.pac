@@ -14,10 +14,10 @@ function FindProxyForURL(url, host) {
 );
 
     var proxylist2 = new Array(
-     "ip.cn",
-     "www.tandfonline.com",
+    "ip138.com",
+    "www.tandfonline.com",
     "verify.nature.com",
-     "link.springer.com",
+    "link.springer.com",
     "www.springer.com",
     "onlinelibrary.wiley.com",
     "ieeexplore.ieee.org",
@@ -32,21 +32,21 @@ function FindProxyForURL(url, host) {
     "www.cnki.net",
     "kns.cnki.net",
     "navi.cnki.net",
-     "nvsm.cnki.net",
-     "pdf.d.cnki.net",
-     "caj.d.cnki.net",
-     "login.cnki.net",
+    "nvsm.cnki.net",
+    "pdf.d.cnki.net",
+    "caj.d.cnki.net",
+    "login.cnki.net",
     "docdownload.cnki.net",
-     "202.192.18.21",
-     "202.192.18.192",
-     "202.192.18.158",
-      "202.192.18.162",
-      "202.192.18.53",
-      "202.192.18.180",
-      "202.192.18.178",
-      "202.192.18.175",
-      "222.201.56.34",
-      "202.192.19.3"
+    "202.192.18.21",
+    "202.192.18.192",
+    "202.192.18.158",
+    "202.192.18.162",
+    "202.192.18.53",
+    "202.192.18.180",
+    "202.192.18.178",
+    "202.192.18.175",
+    "222.201.56.34",
+    "202.192.19.3"
 );
   for(var i=0; i<proxylist0.length; i++) {
     var value = proxylist0[i];
