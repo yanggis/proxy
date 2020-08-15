@@ -232,7 +232,8 @@
 1;54.223.89.229;ott.v1.data.mgtv.com
 0;54.222.149.51;ott1.liveapi.mgtv.com
 0;54.222.185.14;ott2.liveapi.mgtv.com
-2;192.144.195.248;ottlive.api.mgtv.com
+443;192.144.195.248;ottlive.api.mgtv.com
+443;123.59.23.243;ottlive.api.mgtv.com
 1;119.167.222.80;p.cp31.ott.cibntv.net
 2;47.95.49.18;p.doras.api.vcinema.cn
 0;61.132.238.115;p2p-msd.mairx.com
