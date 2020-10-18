@@ -11,6 +11,8 @@
 0;127.0.0.1;yktd.m.cn.miaozhen.com
 0;127.0.0.1;vyk.admaster.com.cn
 0;127.0.0.1;ip.taobao.com
+0;127.0.0.1;apilocate.amap.com
+0;127.0.0.1;restapi.amap.com
 1;175.100.207.230;pv.sohu.com
 1;138.113.37.100;locationhera.ximalaya.com
 443;38.83.75.142;gateway.kugou.com
@@ -66,7 +68,6 @@
 443;140.205.162.6;api.cp12.ott.cibntv.net
 1;123.59.177.208;api.itv.cp21.ott.cibntv.net
 1;123.125.38.247;api.itv.cp21.ott.cibntv.net
-1;205.204.101.237;apilocate.amap.com
 1;123.151.79.47;live.qq.com
 1;39.107.191.0;ott.liveapi.mgtv.com
 1;47.95.17.101;ott.liveapi.mgtv.com
