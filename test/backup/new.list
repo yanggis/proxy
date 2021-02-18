@@ -48,7 +48,7 @@
 0;221.179.177.41;api.ott.tv.cp45.ott.cibntv.net
 1;220.181.90.67;api.ott.tv.snmsohu.aisee.tv
 443;211.151.82.226;api.passport.pptv.com
-2;222.192.186.104;api.snm0516.aisee.tv
+2;119.3.44.211;api.snm0516.aisee.tv
 0;111.206.212.239;api.sports.letv.com
 1;101.227.172.20;api.tv.sohu.com
 2;183.61.38.211;api.unipay.qq.com
@@ -100,7 +100,7 @@
 2;47.246.5.230;data.bilibili.com
 2;47.246.5.231;data.bilibili.com
 2;47.246.5.233;data.bilibili.com
-2;112.29.216.230;data.snm0516.aisee.tv
+2;47.246.59.228;data.snm0516.aisee.tv
 1;103.44.56.68;data.video.ptqy.gitv.tv
 1;103.44.56.69;data.video.ptqy.gitv.tv
 1;103.44.56.78;data.video.ptqy.gitv.tv
@@ -322,12 +322,15 @@
 2;14.215.173.5;tv.aiseet.atianqi.com
 2;14.215.173.6;tv.aiseet.atianqi.com
 2;157.255.173.120;tv.aiseet.atianqi.com
+2;157.255.173.109;tv.aiseet.atianqi.com
+2;157.255.173.101;tv.aiseet.atianqi.com
 2;182.254.106.117;tv.aiseet.atianqi.com
 2;183.232.95.217;tv.aiseet.atianqi.com
 2;183.3.225.41;tv.aiseet.atianqi.com
 2;203.205.219.52;tv.aiseet.atianqi.com
 2;203.205.255.171;tv.aiseet.atianqi.com
 2;58.251.106.180;tv.aiseet.atianqi.com
+2;58.251.116.57;tv.aiseet.atianqi.com
 1;43.250.12.28;tv.api.3g.tudou.com
 0;198.11.190.6;tv.api.3g.youku.com
 0;121.51.139.202;tv.cp81.ott.cibntv.net
