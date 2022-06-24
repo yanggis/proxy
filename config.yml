@@ -17,7 +17,7 @@ pki:
 # A host can have multiple fixed IP addresses defined here, and nebula will try each when establishing a tunnel.
 # The syntax is:
 #   "{nebula ip}": ["{routable ip/dns name}:{routable port}"]
-# Example, if your lighthouse has the nebula IP of 192.168.100.1 and has the real ip address of 100.64.22.11 and runs on port 4242:
+# Example, if your lighthouse has the nebula IP of 192.168.200.1 and has the real ip address of 100.64.22.11 and runs on port 4242:
 static_host_map:
   "192.168.200.1": ["100.64.22.11:4242"]
 
@@ -159,7 +159,7 @@ relay:
   # IPs in this list must have am_relay set to true in thier configs, otherwise
   # they will reject relay requests.
   #relays:
-    #- 192.168.100.1
+    #- 192.168.200.1
     #- <other Nebula VPN IPs of host use use as relay to access me>
   # Set am_relay to true to permit other hosts to list my IP in their relays config. Default false.
   am_relay: false
@@ -194,7 +194,7 @@ tun:
   # `metric` will default to 0 if this option is not specified
   unsafe_routes:
     #- route: 172.16.1.0/24
-    #  via: 192.168.100.99
+    #  via: 192.168.200.99
     #  mtu: 1300
     #  metric: 100
 
