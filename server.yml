@@ -1,8 +1,8 @@
 pki:
   # The CAs that are accepted by this node. Must contain one or more certificates created by 'nebula-cert ca'
   ca: /etc/nebula/ca.crt
-  cert: /etc/nebula/host.crt
-  key: /etc/nebula/host.key
+  cert: /etc/nebula/lighthouse.crt
+  key: /etc/nebula/lighthouse.key
 
 static_host_map:
   "192.168.200.1": ["100.64.22.11:4242"]
