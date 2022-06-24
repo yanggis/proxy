@@ -8,7 +8,7 @@ static_host_map:
   "192.168.200.1": ["100.64.22.11:4242"]
 
 lighthouse:
-  am_lighthouse: false
+  am_lighthouse: true
   interval: 60
   hosts:
     - "192.168.200.1"
