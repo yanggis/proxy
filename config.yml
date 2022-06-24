@@ -19,7 +19,7 @@ pki:
 #   "{nebula ip}": ["{routable ip/dns name}:{routable port}"]
 # Example, if your lighthouse has the nebula IP of 192.168.100.1 and has the real ip address of 100.64.22.11 and runs on port 4242:
 static_host_map:
-  "192.168.100.1": ["100.64.22.11:4242"]
+  "192.168.200.1": ["100.64.22.11:4242"]
 
 
 lighthouse:
@@ -40,7 +40,7 @@ lighthouse:
   # IMPORTANT: THIS SHOULD BE EMPTY ON LIGHTHOUSE NODES
   # IMPORTANT2: THIS SHOULD BE LIGHTHOUSES' NEBULA IPs, NOT LIGHTHOUSES' REAL ROUTABLE IPs
   hosts:
-    - "192.168.100.1"
+    - "192.168.200.1"
 
   # remote_allow_list allows you to control ip ranges that this node will
   # consider when handshaking to another node. By default, any remote IPs are
@@ -94,7 +94,7 @@ lighthouse:
 # however using port 0 will dynamically assign a port and is recommended for roaming nodes.
 listen:
   # To listen on both any ipv4 and ipv6 use "[::]"
-  host: 0.0.0.0
+  host: "[::]"
   port: 4242
   # Sets the max number of packets to pull from the kernel for each syscall (under systems that support recvmmsg)
   # default is 64, does not support reload
