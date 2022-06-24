@@ -1,66 +1,36 @@
-# PKI defines the location of credentials for this node. Each of these can also be inlined by using the yaml ": |" syntax.
 pki:
   # The CAs that are accepted by this node. Must contain one or more certificates created by 'nebula-cert ca'
   ca: /etc/nebula/ca.crt
   cert: /etc/nebula/host.crt
   key: /etc/nebula/host.key
 
-# The syntax is:
-#   "{nebula ip}": ["{routable ip/dns name}:{routable port}"]
-# Example, if your lighthouse has the nebula IP of 192.168.200.1 and has the real ip address of 100.64.22.11 and runs on port 4242:
 static_host_map:
   "192.168.200.1": ["100.64.22.11:4242"]
 
-
 lighthouse:
-  # am_lighthouse is used to enable lighthouse functionality for a node. This should ONLY be true on nodes
-  # you have configured to be lighthouses in your network
   am_lighthouse: false
-  # serve_dns optionally starts a dns listener that responds to various queries and can even be
-  # delegated to for resolution
-  #serve_dns: false
-  #dns:
-    # The DNS host defines the IP to bind the dns listener to. This also allows binding to the nebula node IP.
-    #host: 0.0.0.0
-    #port: 53
-  # interval is the number of seconds between updates from this node to a lighthouse.
-  # during updates, a node sends information about its current IP addresses to each node.
   interval: 60
-  # hosts is a list of lighthouse hosts this node should report to and query from
-  # IMPORTANT: THIS SHOULD BE EMPTY ON LIGHTHOUSE NODES
-  # IMPORTANT2: THIS SHOULD BE LIGHTHOUSES' NEBULA IPs, NOT LIGHTHOUSES' REAL ROUTABLE IPs
   hosts:
     - "192.168.200.1"
 
-# Port Nebula will be listening on. The default here is 4242. For a lighthouse node, the port should be defined,
-# however using port 0 will dynamically assign a port and is recommended for roaming nodes.
 listen:
   # To listen on both any ipv4 and ipv6 use "[::]"
   host: "[::]"
   port: 4242
-
 
 punchy:
   # Continues to punch inbound/outbound at a regular interval to avoid expiration of firewall nat mappings
   punch: true
 
 # Cipher allows you to choose between the available ciphers for your network. Options are chachapoly or aes
-# IMPORTANT: this value must be identical on ALL NODES/LIGHTHOUSES. We do not/will not support use of different ciphers simultaneously!
 cipher: chachapoly
 
-# TODO
 # Configure logging level
 logging:
   # panic, fatal, error, warning, info, or debug. Default is info
   level: info
   # json or text formats currently available. Default is text
   format: text
-  # Disable timestamp logging. useful when output is redirected to logging system that already adds timestamps. Default is false
-  #disable_timestamp: true
-  # timestamp format is specified in Go time format, see:
-  #     https://golang.org/pkg/time/#pkg-constants
-  # default when `format: json`: "2006-01-02T15:04:05Z07:00" (RFC3339)
-  # default when `format: text`:
 
 # Nebula security group configuration
 firewall:
@@ -80,6 +50,3 @@ firewall:
     - port: any
       proto: any
       host: any
-
-
-
