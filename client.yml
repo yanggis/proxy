@@ -1,0 +1,55 @@
+pki:
+  # The CAs that are accepted by this node. Must contain one or more certificates created by 'nebula-cert ca'
+  ca: /etc/nebula/ca.crt
+  cert: /etc/nebula/client.crt
+  key: /etc/nebula/client.key
+
+static_host_map:
+  "192.168.200.1": ["116.251.216.186:4242"]
+  "192.168.200.2": ["141.164.41.211:4242"]
+  "192.168.200.3": ["66.42.77.236:4242"]
+
+lighthouse:
+  am_lighthouse: false
+  interval: 60
+  hosts:
+    - "192.168.200.4"
+
+listen:
+  # To listen on both any ipv4 and ipv6 use "[::]"
+  host: "[::]"
+  port: 0
+
+punchy:
+  # Continues to punch inbound/outbound at a regular interval to avoid expiration of firewall nat mappings
+  punch: true
+
+# Cipher allows you to choose between the available ciphers for your network. Options are chachapoly or aes
+cipher: chachapoly
+
+# Configure logging level
+logging:
+  # panic, fatal, error, warning, info, or debug. Default is info
+  level: info
+  # json or text formats currently available. Default is text
+  format: text
+
+# Nebula security group configuration
+firewall:
+  conntrack:
+    tcp_timeout: 12m
+    udp_timeout: 3m
+    default_timeout: 10m
+
+  outbound:
+    # Allow all outbound traffic from this node
+    - port: any
+      proto: any
+      host: any
+
+  inbound:
+    # Allow icmp between any nebula hosts
+    - port: any
+      proto: any
+      host: any
+1
