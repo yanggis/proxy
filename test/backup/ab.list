@@ -27,6 +27,9 @@
 0;172.67.167.31;ub1234.com
 443;43.135.106.82;qqmusic.com
 443;202.194.95.164;qqmusic.com
+443;220.194.95.164;qqmusic.com
+14000;220.194.95.164;qqmusic.com
+1;58.251.139.218;qqmusic.wns.com.fake
 443;139.177.246.206;api5-normal-hl.xsj.wasu.tv
 2;43.154.240.58;h5vv.play.aiseet.atianqi.com
 443;122.190.65.128;api.iqiyi.com
@@ -44,7 +47,6 @@
 443;182.232.119.146;tv.cp81.ott.cibntv.net
 443;121.51.8.64;tv.cp81.ott.cibntv.net
 1;114.118.20.142;stat.v2.cp33.ott.cibntv.net
-1;58.251.139.218;qqmusic.wns.com.fake
 0;61.132.238.115;msd.moguv.com
 0;61.132.238.115;p2p-msd.mairx.com
 0;106.11.208.145;heyi-acs.cp31.ott.cibntv.net
@@ -515,7 +517,6 @@
 8080;121.51.162.11;
 80;121.51.162.11;
 14000;58.251.139.218;
-14000;220.194.95.164;
 14000;58.60.9.104;
 80;58.60.9.104;
 8080;58.60.9.104;
