@@ -164,10 +164,11 @@
 2;125.39.52.124;tv.aiseet.atianqi.com
 2;125.39.52.40;tv.aiseet.atianqi.com
 2;129.226.107.233;tv.aiseet.atianqi.com
-2;129.226.107.253;tv.aiseet.atianqi.com
-2;175.27.0.38;tv.aiseet.atianqi.com
-2;109.244.212.70;tv.aiseet.atianqi.com
-2;60.29.239.210;tv.aiseet.atianqi.com
+443;129.226.107.253;tv.aiseet.atianqi.com
+443;175.27.0.38;tv.aiseet.atianqi.com
+443;109.244.212.70;tv.aiseet.atianqi.com
+443;60.29.239.210;tv.aiseet.atianqi.com
+443;60.29.242.185;tv.aiseet.atianqi.com
 1;39.105.226.229;security.ssports.com
 2;183.3.226.119;u.y.qq.com
 2;203.205.151.23;c.y.qq.com
