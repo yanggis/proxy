@@ -7,7 +7,7 @@ pki:
 static_host_map:
   "192.168.200.3": ["66.42.77.236:4242"]
   "192.168.200.2": ["141.164.41.211:4242"]
-  "192.168.200.1": ["116.251.216.186:4242"]
+  "192.168.200.237": ["106.52.220.33:42420"]
  
 lighthouse:
   am_lighthouse: false
@@ -15,7 +15,7 @@ lighthouse:
   hosts:
     - "192.168.200.3"
     - "192.168.200.2"
-    - "192.168.200.1"
+    - "192.168.200.237"
 
 listen:
   # To listen on both any ipv4 and ipv6 use "[::]"
@@ -25,6 +25,13 @@ listen:
 punchy:
   # Continues to punch inbound/outbound at a regular interval to avoid expiration of firewall nat mappings
   punch: true
+
+relay:
+  relays:
+    - 192.168.200.2
+    - 192.168.200.3
+  am_relay: false
+  use_relays: true
 
 # Cipher allows you to choose between the available ciphers for your network. Options are chachapoly or aes
 cipher: chachapoly
