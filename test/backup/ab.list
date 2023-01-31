@@ -44,7 +44,6 @@
 1;103.44.162.187;api.jinsapi.com
 1;175.100.207.230;pv.sohu.com
 1;138.113.37.100;locationhera.ximalaya.com
-443;61.48.115.227;gateway.kugou.com
 1;121.14.40.84;kp2.kglink.cn
 1;49.7.32.102;ip.ptqy.gitv.tv
 443;210.38.3.60;vip.aiseewhaley.aisee.tv
@@ -196,6 +195,8 @@
 1;120.232.165.104;www.kugou.com
 1028;61.48.115.237;online.kugou.com
 0;61.48.115.227;mobilefeedback.kugou.com
+443;61.48.115.227;gateway.kugou.com
+1;163.177.1.123;ip.kugou.com
 1;103.7.30.64;graph.qq.com
 1;103.7.31.186;acc.music.qq.com
 1;103.7.31.188;s.plcloud.music.qq.com
@@ -251,7 +252,6 @@
 0;120.132.47.231;v.api.mgtv.com
 1;120.132.47.233;pad.api.hunantv.com
 1;120.132.47.240;m.api.hunantv.com
-1;163.177.1.123;ip.kugou.com
 1;123.125.111.100;cache.video.ptqy.gitv.tv
 1;223.26.76.143;cache.video.ptqy.gitv.tv
 1;118.26.32.12;cache.video.ptqy.gitv.tv
