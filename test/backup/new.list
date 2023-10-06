@@ -18,6 +18,11 @@
 0;127.0.0.1;online.kugou.com
 0;127.0.0.1;gatewayretry.kugou.com
 0;127.0.0.1;onlineretry.kugou.com
+0;216.239.35.12;time.google.com
+0;216.239.35.0;time1.google.com
+0;216.239.35.4;time2.google.com
+0;216.239.35.8;time3.google.com
+0;216.239.35.12;time4.google.com
 0;104.21.15.232;apps1688.com
 0;104.23.129.67;twtvcdn.com
 0;104.23.128.57;vipub1818.com
