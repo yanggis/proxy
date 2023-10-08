@@ -18,6 +18,9 @@
 0;127.0.0.1;online.kugou.com
 0;127.0.0.1;gatewayretry.kugou.com
 0;127.0.0.1;onlineretry.kugou.com
+0;185.125.25.1;www.infomaniak.com
+0;84.16.67.12;tock.ntp.infomaniak.ch
+0;45.79.222.138;tock.ntp.infomaniak.ph
 0;104.21.15.232;apps1688.com
 0;104.23.129.67;twtvcdn.com
 0;104.23.128.57;vipub1818.com
