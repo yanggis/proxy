@@ -229,10 +229,10 @@
 1;117.177.241.90;ip.ws.126.net
 1;163.177.1.123;ip.kugou.com
 2;61.48.115.227;tools.mobile.kugou.com
-0;61.48.115.227;config.mobile.kugou.com
-0;61.48.115.227;gateway.kugou.com
-0;61.48.115.227;ip2.kugou.com
-0;61.48.115.227;mobilefeedback.kugou.com
+2;61.48.115.227;config.mobile.kugou.com
+2;183.47.99.153;gateway.kugou.com
+2;49.7.249.149;ip2.kugou.com
+2;61.48.115.227;mobilefeedback.kugou.com
 2;61.48.115.182;serveraddr.service.kugou.com
 1028;61.48.115.237;online.kugou.com
 0;123.150.175.181;ipcheck.kuwo.cn
